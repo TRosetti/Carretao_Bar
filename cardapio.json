@@ -1,0 +1,331 @@
+[
+    {
+        "title": "Chop",
+        "content": "Chop Pilsen da Reserva",
+        "price1": "R$8,00",
+        "price2": "R$4,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "bebidas"
+    },
+    {
+        "title": "Amstel",
+        "content": "Amstel 600ml",
+        "price1": "R$12,00",
+        "price2": "R$8,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "bebidas"
+        
+    },
+    {
+        "title": "Heineken",
+        "content": "Heineken 600ml",
+        "price1": "R$16,00",
+        "price2": "R$10,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "bebidas"
+    }
+    ,
+    {
+        "title": "Heineken Zero",
+        "content": "Heineken Zero long neck",
+        "price1": "R$10,00",
+        "price2": "R$7,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "bebidas"
+    }
+    ,
+    {
+        "title": "Água Mineral",
+        "content": "Garrafinha de água mineral",
+        "price1": "R$4,00",
+        "price2": "R$2,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "bebidas"
+    }
+    ,
+    {
+        "title": "Água com Gás",
+        "content": "Garrafinha de água com gás",
+        "price1": "R$5,00",
+        "price2": "R$3,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "bebidas"
+    }
+    ,
+    {
+        "title": "Refrigerantes",
+        "content": "Coca-Cola (normal e zero), Guaraná (normal e zero)",
+        "price1": "R$6,00",
+        "price2": "R$3,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "bebidas"
+    }
+    ,
+    {
+        "title": "Suco de Polpa",
+        "content": "Manga, Acerola, Caju, Graviola, Maracujá",
+        "price1": "R$7,00",
+        "price2": "R$3,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "bebidas"
+    }
+    ,
+    {
+        "title": "Caipirinha",
+        "content": "Cachaça, limão e xarope de açúcar em equilíbrio brasileiro",
+        "price1": "R$18,00",
+        "price2": "R$8,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+    ,
+    {
+        "title": "Caipirinha de Jambu",
+        "content": "Caipirinha clássica com a famosa cachaça de jambu",
+        "price1": "R$26,00",
+        "price2": "R$14,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+    ,
+    {
+        "title": "Caipivodka",
+        "content": "Vodka, limão e xarope de açúcar em harmonia refrescante",
+        "price1": "R$20,00",
+        "price2": "R$9,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+
+    ,
+    {
+        "title": "Gin Tônica",
+        "content": "Gin, água tônica e toque cítrico, elegância simples",
+        "price1": "R$21,00",
+        "price2": ">R$9,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+    ,
+    {
+        "title": "Gin Tônica Saborizado",
+        "content": "Gin, água tônica e Monin de diferentes sabores..",
+        "price1": "R$26,00",
+        "price2": "R$10,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+    ,
+    {
+        "title": "Mojito",
+        "content": "Rum, hortelã, limão e frescor vibrante",
+        "price1": "R$25,00",
+        "price2": "R$10,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+    ,
+    {
+        "title": "Cuba Libre",
+        "content": "Rum, Coca-cola e limão, clássico cubano",
+        "price1": "R$20,00",
+        "price2": "R$9,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+    ,
+    {
+        "title": "Negroni",
+        "content": "Gin, vermute e Campari, o equilíbrio italiano",
+        "price1": "R$25,00",
+        "price2": "R$14,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+    ,
+    {
+        "title": "Mango Loco",
+        "content": "Vodka e energético sabor Mango Loco",
+        "price1": "R$24,00",
+        "price2": "R$13,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+    ,
+    {
+        "title": "Pacific Punch",
+        "content": "Vodka e energético sabor Pacific Punch",
+        "price1": "R$24,00",
+        "price2": "R$13,90",
+        "img": "/image/carretao.png",
+        "class1": "tudo" ,
+        "class2": "bebidas",
+        "class3": "drinks"
+    }
+    ,
+    {
+        "title": "Bolinho de Carne",
+        "content": "Porção com 350g de bolinhas de carne frita",
+        "price1": "R$38,00",
+        "price2": "R$20,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "entradas"
+    }
+    ,
+    {
+        "title": "Bolinha de Queijo",
+        "content": "Porção com 350g de bolinhas de queijo crocantes",
+        "price1": "R$38,00",
+        "price2": "R$20,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "entradas"
+    }
+    ,
+    {
+        "title": "Pão de Alho (2 unidades)",
+        "content": "Dois pães assados com toque de alho e ervas",
+        "price1": "R$15,00",
+        "price2": "R$9,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "entradas",
+        "class3": "guarnicoes"
+    }
+    ,
+    {
+        "title": "Porção de Fritas",
+        "content": "Porção de 350g de batatas fritas crocantes",
+        "price1": "R$18,00",
+        "price2": "R$7,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "entradas"
+    }
+    ,
+    {
+        "title": "Kieber",
+        "content": "Deliciosas bolinhas de frango fritas recheadas com presunto e queijo",
+        "price1": "R$41,00",
+        "price2": "R$27,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "entradas"
+    }
+    ,
+    {
+        "title": "Linguiça com Fritas",
+        "content": "350g de linguicinha artesanal grelhada acompanhado de batatas fritas",
+        "price1": "R$49,00",
+        "price2": "R$24,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "entradas"
+    },
+    {
+        "title": "Parilla de Ancho",
+        "content": "450g de Ancho, 150g de Linguiça artesanal, 350g fritas, farofa e tomate",
+        "price1": "R$112,00",
+        "price2": "R$47,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "carnes"
+    }
+    ,
+    {
+        "title": "Parilla de Picanha",
+        "content": "450g de Picanha, 150g de Linguiça artesanal, 350g fritas, farofa e tomate.",
+        "price1": "R$135,00",
+        "price2": "R$67,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "carnes"
+    }
+    ,
+    {
+        "title": "Arroz Clássico",
+        "content": "Porção com 350g de arroz branco, perfeito para acompanhar qualquer prato",
+        "price1": "R$12,00",
+        "price2": "R$10,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "guarnicoes" 
+    }
+    ,
+    {
+        "title": "Campari",
+        "content": "Dose de Campari",
+        "price1": "R$11,00",
+        "price2": "R$5,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "drinks"
+    }
+    ,
+    {
+        "title": "Cachaça",
+        "content": "Dose de Cachaça",
+        "price1": "R$10,00",
+        "price2": "R$5,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "drinks"
+    }
+    ,
+    {
+        "title": "Vodka",
+        "content": "Dose de Vodka",
+        "price1": "R$10,00",
+        "price2": "R$3,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "drinks"
+    }
+    ,
+    {
+        "title": "Gin",
+        "content": "Dose de Gin",
+        "price1": "R$10,00",
+        "price2": "R$4,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "drinks"
+    }
+    ,
+    {
+        "title": "Cachaça de Jambu",
+        "content": "Dose de Cachaça de Jambu",
+        "price1": "R$14,00",
+        "price2": "R$8,00",
+        "img": "/image/carretao.png",
+        "class1": "tudo",
+        "class2": "drinks"
+    }
+]

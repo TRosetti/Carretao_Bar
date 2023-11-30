@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+/*  Header */
+
+
+header{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    width: 70px;
+}
+.menu .m1{
+    width: 40px;
+    height: 8px;
+    background-color: black;
+    border-radius: 10px; 
+    margin-bottom: 5px
+}
+.menu .m2{
+    width: 30px;
+    height: 8px;
+    background-color: black;
+    border-radius: 10px;         
+}
+
+.dia-da-semana button{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+li{
+    list-style: none; 
+    padding: 5px 0;
+}
+
+
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+                  
+
+/*      Main     */
+
+
+
+.btn_check{
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
+.btn_check:checked + .btn_::after{
+    content: ' ';
+    width: 100%;
+    height: 4px;
+    color: black;
+    background-color: #B3A8F5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 3px;
+}
+.btn_{
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 10px 20px;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 10px 1px;
+    position: relative;
+}
+.btn_check:checked + .btn_{
+    color: black;
+}
+
+
+.search{
+    width: 100%; 
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+.form_search{
+    border: none;
+    height: 50px;
+    width: 80%;
+    font-size: large;
+    outline: none;
+}
+
+
+
+.btn_search{
+    height: 50px;
+    width: 50px;
+    background-color: inherit;
+    border: none;
+    
+}
+
+
+.wrapper{
+    display: flex;
+    overflow-x: scroll !important;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0px;
+}
+.wrapper label{
+    margin: 0 10px;
+}
+
+#nav-2{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.btn-color{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: black !important;
+    background-color: inherit;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 0 5px;
+}
+
+.btn-color.active{
+    background-color: #B3A8F5;
+    border: none;
+    font-weight: bold;
+}
+
+
+
+.tudo , .entradas, .guarnicoes, .carnes ,.bebidas ,.drinks{
+    display: flex;
+}
+
+
+
+.sobre , .promo{
+    display: none;
+}

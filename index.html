@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+    <!-- Bootstrap local -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="menu">
+                <div class="m1"></div>
+                <div class="m2"></div>
+            </div>
+            <div class="dia-da-semana">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle dias" data-bs-toggle="dropdown">Quinta-Feira</button>
+                    <ul class="dropdown-menu px-3">
+                        <li>Segunda-Feira</li>
+                        <li>Terça-Feira</li>
+                        <li>Quarta-Feira</li>
+                        <li>Quinta-Feira</li>
+                        <li>Sexta-Feira</li>
+                        <li>Sabado</li>
+                        <li>Domingo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="image/carretao.png" alt="Logo do Carretão">
+            </div>
+        </header>
+        <main>
+
+            <div class="alert alert-warning alert-dismissible fade show">
+                
+                    <h4 class="alert-heading">Promoções</h4>
+                    <p class="my-1">Confira nossas promoções no link abaixo ou clicando em Promoções ao lado do cardapio.</p>
+        
+                    <button class="btn-close" data-bs-dismiss="alert"></button> 
+        
+            </div>
+                
+            <div class="wrapper">
+                <input type="radio"  name="grupo" id="btn1" class="btn_check" checked>
+                <label for="btn1" class="btn_" btn1="" onclick="cardapio()">Cardapio</label>
+
+                <input type="radio" name="grupo" id="btn3" class="btn_check">
+                <label for="btn3" class="btn_" btn2="" onclick="promo()">Promoções</label>
+
+                <input type="radio" name="grupo" id="btn2" class="btn_check">
+                <label for="btn2" class="btn_" btn2="" onclick="sobre()">Sobre</label>
+
+              
+            </div>
+
+            <div class="search" style="display: none;">
+                <button class="btn_search">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="16" y="17.7668" width="2.49861" height="10.0358" rx="1.24931" transform="rotate(-45 16 17.7668)" fill="#B8B8B8"/>
+                        <path d="M19.4349 19.4839L16.5 20.5L11.9998 21.0006L21 12L20.5 16.5L19.4349 19.4839Z" fill="#B8B8B8"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" fill="white" stroke="black" stroke-width="2"/>
+                        </svg>
+                        
+                </button>
+                <input type="text" class="form_search" placeholder="Search">
+            </div>
+
+            <div class="mb-3 wrapper" id="nav-2">
+                <button class="btn-color active" onclick="changeColor(this)" value="tudo">Tudo</button>
+                <button class="btn-color" onclick="changeColor(this)" value="entradas">Entradas</button>
+                <button class="btn-color" onclick="changeColor(this)" value="guarnicoes">Guarnição</button>
+                <button class="btn-color" onclick="changeColor(this)" value="carnes">Carnes</button>
+                <button class="btn-color" onclick="changeColor(this)" value="bebidas">Bebidas</button>
+                <button class="btn-color" onclick="changeColor(this)" value="drinks">Drinks</button>
+            </div>
+
+<!-- ---------------------  Card   --------------------- -->
+
+
+            <div id="cardContainer">
+                <div class="card_" style="display: none;">
+                    <div class="card_content">
+                        <h2 class="card_title">Chop</h2>
+                        <p class="card_text">Chop Pilse da Reserva do Gerente</p>
+                        <div class="price">
+                            <p>R$8,00</p>
+                            <p class="price_discount">R$4,00</p>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <img src="/image/carretao.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+
+<!--  -------------------------------------------------- -->
+            <div class="promo">
+                <h1>Essa vai ser a área da Promoção</h1>
+                <p>Em breve aqui estará as promoções, tudo de melhor para todos vocês.</p>
+            </div>
+            <div class="sobre">
+                <h1>Essa vai ser a área Sobre</h1>
+                <p>Em breve aqui estará tudo o que vocês precisam saber para um melhor atendimento.</p>
+            </div>
+                
+        </main>
+    </div>
+    
+    <script src="card.js"></script>
+    <script src="main.js"></script>
+    <!-- Bootstrap local -->
+    <!-- <script src="teste.js"></script> -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
