@@ -4,8 +4,8 @@
 .card_{
     width: 100%;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +16,8 @@
     font-size: 1.3em;
 }
 .card_text{
-    margin: 10px 0;
+    /*    : cima , direita, baixo , esquerda */
+    margin: 0 0 10px 0;
 }
 .price{
     display: flex;
@@ -31,6 +32,7 @@
     color: green;
 }
 img{
+    border-radius: 5px;
     margin-left: 10px;
     width: 100px;
     height: 100px;

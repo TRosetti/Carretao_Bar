@@ -194,7 +194,7 @@
         "content": "Porção com 350g de bolinhas de carne frita",
         "price1": "R$38,00",
         "price2": "R$20,00",
-        "img": "image/carretao.png",
+        "img": "image/bolinho-de-carne.jpeg",
         "class1": "tudo",
         "class2": "entradas"
     }
@@ -214,7 +214,7 @@
         "content": "Dois pães assados com toque de alho e ervas",
         "price1": "R$15,00",
         "price2": "R$9,00",
-        "img": "image/carretao.png",
+        "img": "image/pao-de-alho.jpeg",
         "class1": "tudo",
         "class2": "entradas",
         "class3": "guarnicoes"
@@ -245,7 +245,7 @@
         "content": "350g de linguicinha artesanal grelhada acompanhado de batatas fritas",
         "price1": "R$49,00",
         "price2": "R$24,00",
-        "img": "image/carretao.png",
+        "img": "image/linguica-com-fritas.jpg",
         "class1": "tudo",
         "class2": "entradas"
     },
@@ -254,7 +254,7 @@
         "content": "450g de Ancho, 150g de Linguiça artesanal, 350g fritas, farofa e tomate",
         "price1": "R$112,00",
         "price2": "R$47,00",
-        "img": "image/carretao.png",
+        "img": "image/ancho.jpg",
         "class1": "tudo",
         "class2": "carnes"
     }
@@ -279,6 +279,16 @@
         "class2": "guarnicoes" 
     }
     ,
+    
+    {
+        "title": "Cachaça de Jambu",
+        "content": "Dose de Cachaça de Jambu",
+        "price1": "R$14,00",
+        "price2": "R$8,00",
+        "img": "image/jambu.png",
+        "class1": "tudo",
+        "class2": "drinks"
+    },
     {
         "title": "Campari",
         "content": "Dose de Campari",
@@ -318,14 +328,5 @@
         "class1": "tudo",
         "class2": "drinks"
     }
-    ,
-    {
-        "title": "Cachaça de Jambu",
-        "content": "Dose de Cachaça de Jambu",
-        "price1": "R$14,00",
-        "price2": "R$8,00",
-        "img": "image/carretao.png",
-        "class1": "tudo",
-        "class2": "drinks"
-    }
+    
 ]

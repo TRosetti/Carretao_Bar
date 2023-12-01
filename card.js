@@ -80,16 +80,11 @@ function changeMenu() {
     let hoje = new Date();
     let diaDaSemana = hoje.getDay();
 
-    const alerta = document.querySelector('.alert')
+    
     const h4_alerta = document.querySelector('.alert-heading')
     const my_1 = document.querySelector('.my-1')
 
-    const search = document.querySelector('.search')
-    const nav = document.querySelector('#nav-2')
-    const card = document.querySelector('#cardContainer')
-
-    const promocao = document.querySelector('.promo')
-    const sobre_ = document.querySelector('.sobre')
+ 
 
     const dias = document.querySelector('.dias')
     const li = document.querySelectorAll('li')
@@ -97,7 +92,6 @@ function changeMenu() {
     const priceRegular = document.querySelectorAll('.price p')
     const priceQuinta = document.querySelectorAll('.price_discount')
 
-    const card_content = document.querySelectorAll('.card_content')
 
     
     //  Mudanças para os dias da semana
@@ -105,30 +99,37 @@ function changeMenu() {
     switch (diaDaSemana) {
         case 0:
             // Domingo
+            dias.innerHTML = 'Domingo'
             dom()
             break;
         case 1:
             // Segunda-Feira
+            dias.innerHTML = 'Segunda-Feira'
             seg_ter_qua()
             break;
         case 2:
             // Terça-Feira
+            dias.innerHTML = 'Terça-Feira'
             seg_ter_qua()
             break;
         case 3:
             // Quarta-Feira
+            dias.innerHTML = 'Quarta-Feira'
             seg_ter_qua()
             break;
         case 4:
             // Quinta-Feira
+            dias.innerHTML = 'Quinta-Feira'
             qui()
             break;
         case 5:
             // Sexta-Feira
+            dias.innerHTML = 'Sexta-Feira'
             sex()
             break;
         case 6:
             // Sábado
+            dias.innerHTML = 'Sábado'
             sab()
             break;
         default:
@@ -150,9 +151,9 @@ function changeMenu() {
     
     function qui(){
         h4_alerta.innerHTML = 'Dia do Micão'
-        my_1.innerHTML = 'Hoje cobramos uma taxa de R$20,00 por pessoa e o cardapio fica a preço de Custo.'
+        my_1.innerHTML = 'Hoje cobramos uma taxa de R$20,00 por pessoa e o cardapio fica a <span>Preço de Custo</span>.'
         priceRegular.forEach((price) =>{
-            price.style.textDecoration ='line-through';
+            price.style.textDecoration = 'line-through';
         })
         priceQuinta.forEach((price) =>{
             price.style.display = 'block';
@@ -162,7 +163,8 @@ function changeMenu() {
     
     function sex(){
         h4_alerta.innerHTML = 'Promoção do Dia'
-        my_1.innerHTML = 'Hoje o Chop sai a R$4,00 reais para as mesas que pedirem pelo menos uma carne.'
+        my_1.innerHTML = 'Hoje o <span>Chop R$4,00</span> para as mesas que pedirem pelo menos uma carne.'
+
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
         })
@@ -174,7 +176,7 @@ function changeMenu() {
     
     function sab(){
         h4_alerta.innerHTML = 'Promoção do Dia'
-        my_1.innerHTML = 'Hoje temos Drink em Dobro, peça 1 e leve 2.'
+        my_1.innerHTML = 'Hoje temos <span>Drink em Dobro</span>, peça 1 e leve 2.'
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
         })
