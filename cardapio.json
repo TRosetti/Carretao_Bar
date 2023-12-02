@@ -4,7 +4,7 @@
         "content": "Chop Pilsen da Reserva",
         "price1": "R$8,00",
         "price2": "R$4,00",
-        "img": "image/carretao.png",
+        "img": "image/chop.jpeg",
         "class1": "tudo",
         "class2": "bebidas"
     },
@@ -13,7 +13,7 @@
         "content": "Amstel 600ml",
         "price1": "R$12,00",
         "price2": "R$8,90",
-        "img": "image/carretao.png",
+        "img": "image/amstel.jpg",
         "class1": "tudo",
         "class2": "bebidas"
         
@@ -23,7 +23,7 @@
         "content": "Heineken 600ml",
         "price1": "R$16,00",
         "price2": "R$10,90",
-        "img": "image/carretao.png",
+        "img": "image/heineken.jpg",
         "class1": "tudo",
         "class2": "bebidas"
     }
@@ -33,7 +33,26 @@
         "content": "Heineken Zero long neck",
         "price1": "R$10,00",
         "price2": "R$7,00",
-        "img": "image/carretao.png",
+        "img": "image/cerveja-zero.jpg",
+        "class1": "tudo",
+        "class2": "bebidas"
+    },
+    {
+        "title": "German Pilsen",
+        "content": "Cerveja Artesanal Reserva do Gerente",
+        "price1": "R$13,00",
+        "price2": "R$7,00",
+        "img": "image/pilsen.jpeg",
+        "class1": "tudo",
+        "class2": "bebidas"
+    }
+    ,
+    {
+        "title": "American Ipa",
+        "content": "Cerveja Artesanal Reserva do Gerente",
+        "price1": "R$13,00",
+        "price2": "R$7,00",
+        "img": "image/ipa.jpeg",
         "class1": "tudo",
         "class2": "bebidas"
     }
@@ -43,7 +62,7 @@
         "content": "Garrafinha de água mineral",
         "price1": "R$4,00",
         "price2": "R$2,00",
-        "img": "image/carretao.png",
+        "img": "image/agua.jpeg",
         "class1": "tudo",
         "class2": "bebidas"
     }
@@ -53,7 +72,7 @@
         "content": "Garrafinha de água com gás",
         "price1": "R$5,00",
         "price2": "R$3,00",
-        "img": "image/carretao.png",
+        "img": "image/agua-com-gas.jpeg",
         "class1": "tudo",
         "class2": "bebidas"
     }
@@ -63,7 +82,7 @@
         "content": "Coca-Cola (normal e zero), Guaraná (normal e zero)",
         "price1": "R$6,00",
         "price2": "R$3,90",
-        "img": "image/carretao.png",
+        "img": "image/refrigerates.jpg",
         "class1": "tudo",
         "class2": "bebidas"
     }
@@ -116,7 +135,7 @@
         "title": "Gin Tônica",
         "content": "Gin, água tônica e toque cítrico, elegância simples",
         "price1": "R$21,00",
-        "price2": ">R$9,90",
+        "price2": "R$9,90",
         "img": "image/carretao.png",
         "class1": "tudo" ,
         "class2": "bebidas",
@@ -264,7 +283,7 @@
         "content": "450g de Picanha, 150g de Linguiça artesanal, 350g fritas, farofa e tomate.",
         "price1": "R$135,00",
         "price2": "R$67,00",
-        "img": "image/carretao.png",
+        "img": "image/picanha.jpg",
         "class1": "tudo",
         "class2": "carnes"
     }
@@ -304,7 +323,7 @@
         "content": "Dose de Cachaça",
         "price1": "R$10,00",
         "price2": "R$5,00",
-        "img": "image/carretao.png",
+        "img": "image/seleta.jpeg",
         "class1": "tudo",
         "class2": "drinks"
     }
@@ -314,7 +333,7 @@
         "content": "Dose de Vodka",
         "price1": "R$10,00",
         "price2": "R$3,00",
-        "img": "image/carretao.png",
+        "img": "image/vodka.jpeg",
         "class1": "tudo",
         "class2": "drinks"
     }
@@ -324,9 +343,19 @@
         "content": "Dose de Gin",
         "price1": "R$10,00",
         "price2": "R$4,00",
-        "img": "image/carretao.png",
+        "img": "image/gim.jpeg",
+        "class1": "tudo",
+        "class2": "drinks"
+    },
+    {
+        "title": "Rum",
+        "content": "Dose de Rum",
+        "price1": "R$10,00",
+        "price2": "R$4,00",
+        "img": "image/rum.jpeg",
         "class1": "tudo",
         "class2": "drinks"
     }
     
 ]
+    

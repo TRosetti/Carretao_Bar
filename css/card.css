@@ -22,6 +22,7 @@
 .price{
     display: flex;
     flex-direction: row;
+    color: green;
 }
 .price p{
     padding-right: 10px;
@@ -32,8 +33,9 @@
     color: green;
 }
 img{
+
     border-radius: 5px;
-    margin-left: 10px;
-    width: 100px;
-    height: 100px;
+    margin: 0;
+    height: 120px;
+    width: 120px;
 }

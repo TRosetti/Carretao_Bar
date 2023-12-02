@@ -142,6 +142,7 @@ function changeMenu() {
     
         priceRegular.forEach((price) =>{
             price.style.textDecoration = 'none'
+            price.style.color = 'green'
         })
         priceQuinta.forEach((price) =>{
             price.style.display = 'none'
@@ -154,10 +155,12 @@ function changeMenu() {
         my_1.innerHTML = 'Hoje cobramos uma taxa de R$20,00 por pessoa e o cardapio fica a <span>Preço de Custo</span>.'
         priceRegular.forEach((price) =>{
             price.style.textDecoration = 'line-through';
+            price.style.color = 'black'
         })
         priceQuinta.forEach((price) =>{
             price.style.display = 'block';
             price.style.textDecoration ='none';
+            price.style.color = 'green'
         })
     }
     
@@ -167,6 +170,7 @@ function changeMenu() {
 
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
+            price.style.color = 'green'
         })
         priceQuinta.forEach((price) =>{
             price.style.display = 'none'
@@ -179,6 +183,7 @@ function changeMenu() {
         my_1.innerHTML = 'Hoje temos <span>Drink em Dobro</span>, peça 1 e leve 2.'
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
+            price.style.color = 'green'
         })
         priceQuinta.forEach((price) =>{
             price.style.display = 'none'
@@ -191,6 +196,7 @@ function changeMenu() {
         my_1.innerHTML = 'Confira nossas promoções no link abaixo ou clicando em Promoções ao lado do cardapio.'
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
+            price.style.color = 'green'
         })
         priceQuinta.forEach((price) =>{
             price.style.display = 'none'
