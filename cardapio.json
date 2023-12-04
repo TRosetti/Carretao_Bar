@@ -92,7 +92,7 @@
         "content": "Manga, Acerola, Caju, Graviola, Maracujá",
         "price1": "R$7,00",
         "price2": "R$3,90",
-        "img": "image/carretao.png",
+        "img": "image/suco.jpeg",
         "class1": "tudo",
         "class2": "bebidas"
     }
@@ -136,7 +136,7 @@
         "content": "Gin, água tônica e toque cítrico, elegância simples",
         "price1": "R$21,00",
         "price2": "R$9,90",
-        "img": "image/carretao.png",
+        "img": "image/gim-tonica.jpeg",
         "class1": "tudo" ,
         "class2": "bebidas",
         "class3": "drinks"
@@ -244,7 +244,7 @@
         "content": "Porção de 350g de batatas fritas crocantes",
         "price1": "R$18,00",
         "price2": "R$7,00",
-        "img": "image/carretao.png",
+        "img": "image/batata.jpg",
         "class1": "tudo",
         "class2": "entradas"
     }
