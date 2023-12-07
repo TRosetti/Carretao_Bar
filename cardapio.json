@@ -3,7 +3,7 @@
         "title": "Chop",
         "content": "Chop Pilsen da Reserva",
         "price1": "R$8,00",
-        "price2": "R$4,00",
+        "price2": "R$5,00",
         "img": "image/chop.jpeg",
         "class1": "tudo",
         "class2": "bebidas"
@@ -102,7 +102,7 @@
         "content": "Cachaça, limão e xarope de açúcar em equilíbrio brasileiro",
         "price1": "R$18,00",
         "price2": "R$8,90",
-        "img": "image/carretao.png",
+        "img": "image/caipirinha.jpeg",
         "class1": "tudo" ,
         "class2": "bebidas",
         "class3": "drinks"
@@ -113,7 +113,7 @@
         "content": "Caipirinha clássica com a famosa cachaça de jambu",
         "price1": "R$26,00",
         "price2": "R$14,90",
-        "img": "image/carretao.png",
+        "img": "image/caipirinha.jpeg",
         "class1": "tudo" ,
         "class2": "bebidas",
         "class3": "drinks"
@@ -124,7 +124,7 @@
         "content": "Vodka, limão e xarope de açúcar em harmonia refrescante",
         "price1": "R$20,00",
         "price2": "R$9,90",
-        "img": "image/carretao.png",
+        "img": "image/caipirinha.jpeg",
         "class1": "tudo" ,
         "class2": "bebidas",
         "class3": "drinks"
@@ -147,7 +147,7 @@
         "content": "Gin, água tônica e Monin de diferentes sabores..",
         "price1": "R$26,00",
         "price2": "R$10,90",
-        "img": "image/carretao.png",
+        "img": "image/gim-tonica.jpeg",
         "class1": "tudo" ,
         "class2": "bebidas",
         "class3": "drinks"
@@ -169,7 +169,7 @@
         "content": "Rum, Coca-cola e limão, clássico cubano",
         "price1": "R$20,00",
         "price2": "R$9,90",
-        "img": "image/carretao.png",
+        "img": "image/cuba-libre.jpeg",
         "class1": "tudo" ,
         "class2": "bebidas",
         "class3": "drinks"
@@ -191,7 +191,7 @@
         "content": "Vodka e energético sabor Mango Loco",
         "price1": "R$24,00",
         "price2": "R$13,90",
-        "img": "image/carretao.png",
+        "img": "image/mango-loko.jpeg",
         "class1": "tudo" ,
         "class2": "bebidas",
         "class3": "drinks"
@@ -202,7 +202,7 @@
         "content": "Vodka e energético sabor Pacific Punch",
         "price1": "R$24,00",
         "price2": "R$13,90",
-        "img": "image/carretao.png",
+        "img": "image/pacific-punch.jpeg",
         "class1": "tudo" ,
         "class2": "bebidas",
         "class3": "drinks"
@@ -223,7 +223,7 @@
         "content": "Porção com 350g de bolinhas de queijo crocantes",
         "price1": "R$38,00",
         "price2": "R$20,00",
-        "img": "image/carretao.png",
+        "img": "image/bolinha-de-queijo.jpeg",
         "class1": "tudo",
         "class2": "entradas"
     }

@@ -27,6 +27,7 @@ function createCards() {
                     const card_content = document.createElement("div");
                     card_content.classList.add("card_content");
 
+
                     const card_title = document.createElement("h2");
                     card_title.classList.add('card_title')
                     card_title.textContent = item.title;
