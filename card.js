@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     createCards().then(() => {
+        menuOrganizer();
         changeMenu();
     });
 });
@@ -77,6 +78,35 @@ function createCards() {
     });
 }
 
+function menuOrganizer(){
+    const divEntradas= document.getElementById('entradas')
+    const divCarnes = document.getElementById('carnes')
+    const divGuarnicao = document.getElementById('guarnicoes')
+    const divBebida = document.getElementById('bebidas')
+    const divDrinks = document.getElementById('drinks')
+
+    const entradas = document.querySelectorAll('.entradas')
+    entradas.forEach((item) => {
+        divEntradas.appendChild(item)
+    })
+    const carnes = document.querySelectorAll('.carnes')
+    carnes.forEach((item) => {
+        divCarnes.appendChild(item)
+    })
+    const guarnicoes = document.querySelectorAll('.guarnicoes')
+    guarnicoes.forEach((item) => {
+        divGuarnicao.appendChild(item)
+    })
+    const bebidas = document.querySelectorAll('.bebidas')
+    bebidas.forEach((item) => {
+        divBebida.appendChild(item)
+    })
+    const drinks = document.querySelectorAll('.drinks')
+    drinks.forEach((item) => {
+        divDrinks.appendChild(item)
+    })
+}
+
 function changeMenu() {
     let hoje = new Date();
     let diaDaSemana = hoje.getDay();
@@ -137,9 +167,12 @@ function changeMenu() {
             // Lidar com casos não previstos
     }
 
+   
+
     function seg_ter_qua(){
         h4_alerta.innerHTML = dias.textContent
         my_1.innerHTML = 'Estamos fechados hoje, confira os dias de funcionamento clicando em Sobre ao lado de Promoções.'
+        const promocoes = document.querySelector('#promocoes > div.card_')
     
         priceRegular.forEach((price) =>{
             price.style.textDecoration = 'none'
@@ -148,12 +181,13 @@ function changeMenu() {
         priceQuinta.forEach((price) =>{
             price.style.display = 'none'
         })
-        
+        promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
     }
     
     function qui(){
         h4_alerta.innerHTML = 'Dia do Micão'
         my_1.innerHTML = 'Hoje cobramos uma taxa de R$20,00 por pessoa e o cardapio fica a <span>Preço de Custo</span>.'
+        const promocoes = document.querySelector('#promocoes > div.card_')
         priceRegular.forEach((price) =>{
             price.style.textDecoration = 'line-through';
             price.style.color = 'black'
@@ -163,11 +197,14 @@ function changeMenu() {
             price.style.textDecoration ='none';
             price.style.color = 'green'
         })
+        promocoes.innerHTML = '<h2 class="card_title">Quinta do <span>Micão</span> </h2>'
+        
     }
     
     function sex(){
         h4_alerta.innerHTML = 'Promoção do Dia'
         my_1.innerHTML = 'Hoje o <span>Chopp R$4,00</span> para as mesas que pedirem pelo menos uma carne.'
+        const promocoes = document.querySelector('#promocoes > div.card_')
 
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
@@ -177,11 +214,14 @@ function changeMenu() {
             price.style.display = 'none'
            
         })
+        promocoes.innerHTML = '<h2 class="card_title">Chopp a <span>R$4,00</span></h2>'
     }
     
     function sab(){
         h4_alerta.innerHTML = 'Promoção do Dia'
         my_1.innerHTML = 'Hoje temos <span>Drink em Dobro</span>, peça 1 e leve 2.'
+        const promocoes = document.querySelector('#promocoes > div.card_')
+
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
             price.style.color = 'green'
@@ -190,11 +230,14 @@ function changeMenu() {
             price.style.display = 'none'
             
         })
+        promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
     }
     
     function dom(){
         h4_alerta.innerHTML = 'Promoções'
         my_1.innerHTML = 'Confira nossas promoções no link abaixo ou clicando em Promoções ao lado do cardapio.'
+        const promocoes = document.querySelector('#promocoes > div.card_')
+
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
             price.style.color = 'green'
@@ -202,6 +245,7 @@ function changeMenu() {
         priceQuinta.forEach((price) =>{
             price.style.display = 'none'
         })
+        promocoes.innerHTML = '<h2 class="card_title">Infelizmente hoje não temos promoções</h2>'
     }
     
     li.forEach(function(li){
