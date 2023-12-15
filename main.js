@@ -28,7 +28,7 @@ function cardapio(){
 
     alerta.style.display = 'block'
     // search.style.display = 'none'
-    nav.style.display = 'flex'
+    // nav.style.display = 'flex'
     card.style.display = 'block'
 }
 
@@ -38,7 +38,7 @@ function promo(){
 
     alerta.style.display = 'none'
     // search.style.display = 'none'
-    nav.style.display = 'none'
+    // nav.style.display = 'none'
     card.style.display = 'none'
 }
 function sobre(){
@@ -47,7 +47,7 @@ function sobre(){
 
     alerta.style.display = 'none'
     // search.style.display = 'none'
-    nav.style.display = 'none'
+    // nav.style.display = 'none'
     card.style.display = 'none'
 }
 

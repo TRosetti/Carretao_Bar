@@ -122,6 +122,7 @@ li{
     display: flex;
     flex-direction: row;
     overflow-x: auto;
+    margin: 20px 0;
 }
 
 .wrapper::-webkit-scrollbar{
@@ -129,7 +130,8 @@ li{
     height: 0px;
 }
 .wrapper label{
-    margin: 0 10px;
+    font-size: 1.8em;
+    margin:0  10px ;
 }
 
 #nav-2{
@@ -256,6 +258,7 @@ span{
 #promocoes > h2, #entradas > h2, #carnes > h2, #guarnicoes > h2, #bebidas > h2, #drinks > h2{
     /* position: sticky;
     top: 59px; */
+    margin: 0 10px;
     background: white;
     padding: 10px 0;
     font-weight: bolder;
