@@ -44,6 +44,7 @@
                 <img src="image/carretao.png" alt="Logo do Carretão">
             </div>
         </header>
+    
         <main>
 
             <div class="alert alert-dismissible fade show">
@@ -79,95 +80,111 @@
                 </button>
                 <input type="text" class="form_search" placeholder="Search">
             </div>
-
-            <div class="mb-3 wrapper" id="nav-2">
-                <button class="btn-color active" onclick="changeColor(this)" value="tudo">Tudo</button>
-                <button class="btn-color" onclick="changeColor(this)" value="entradas">Entradas</button>
-                <button class="btn-color" onclick="changeColor(this)" value="guarnicoes">Guarnição</button>
-                <button class="btn-color" onclick="changeColor(this)" value="carnes">Carnes</button>
-                <button class="btn-color" onclick="changeColor(this)" value="bebidas">Bebidas</button>
-                <button class="btn-color" onclick="changeColor(this)" value="drinks">Drinks</button>
+    </div>
+            <div class="mb-3  nav_2" id="nav-2">
+                <div class="container wrapper">
+                    <button class="btn-color active" onclick="changeColor(this)" value="tudo">Tudo</button>
+                    <button class="btn-color" onclick="changeColor(this)" value="entradas">Entradas</button>
+                    <button class="btn-color" onclick="changeColor(this)" value="guarnicoes">Guarnição</button>
+                    <button class="btn-color" onclick="changeColor(this)" value="carnes">Carnes</button>
+                    <button class="btn-color" onclick="changeColor(this)" value="bebidas">Bebidas</button>
+                    <button class="btn-color" onclick="changeColor(this)" value="drinks">Drinks</button>
+                </div>
             </div>
 
 <!-- ---------------------  Card   --------------------- -->
 
 
-            <div id="cardContainer">
-                <div class="card_" style="display: none;">
-                    <div class="card_content">
-                        <h2 class="card_title">Chop</h2>
-                        <p class="card_text">Chop Pilse da Reserva do Gerente</p>
-                        <div class="price">
-                            <p>R$8,00</p>
-                            <p class="price_discount">R$4,00</p>
+            <div class="container">
+                <div id="cardContainer">
+                    <div class="card_" style="display: none;">
+                        <div class="card_content">
+                            <h2 class="card_title">Chop</h2>
+                            <p class="card_text">Chop Pilse da Reserva do Gerente</p>
+                            <div class="price">
+                                <p>R$8,00</p>
+                                <p class="price_discount">R$4,00</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="img">
-                        <img src="/image/carretao.png" alt="" srcset="">
-                    </div>
-                </div>
-            </div>
-
-<!--  -------------------------------------------------- -->
-            <div class="promo">
-                <div>
-                    <h1>Quinta do Micão</h1>
-                    <p>Toda Quinta-Feira temos o dia do Mico, cobramos uma taxa de R$20,00 por pessoa e o cardápio fica a <span>Preço de Custo</span></p>
-                    <p>Obs.: Na quinta do micão não embalos nada para levar.</p>
-                </div>
-
-                <div>
-                    <h1>Sexta do Chop</h1>
-                    <p>Toda Sexta-Feira <span>CHOP A R$4,00</span> para a mesa que pedi pelo menos uma carne da casa. </p>
-                    <p>Obs.: Mesa com até duas pessoas pode ser um petisco/entrada no lugar da carne.</p>
-                </div>
-
-                <div>
-                    <h1>Sábado do Drink</h1>
-                    <p>Todo Sábado temos <span>Drink em Dose Dupla</span>, peça 1 drink e leve 2 </p>
-                </div>
-
-            </div>
-            <div class="sobre">
-                <div class="hr-titulo">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
-                        <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
-                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
-                        </svg>
-                    <h1>Horário de Funcionamento</h1>
-                </div>
-                <div class="horarios">
-                    <div>
-                        <h2>Segunda, Terça e Quarta</h2>
-                        <p>Fechados</p>
-                    </div>
-                    <hr>
-                    <div>
-                        <h2>Quinta-Feira</h2>
-                        <p>Das 19h as 23h</p>
-                    </div>
-                    <hr>
-                    <div>
-                        <h2>Sexta-Feira e Sábado</h2>
-                        <p>Das 18h as 23h</p>
-                    </div>
-                    <hr>
-                    <div>
-                        <h2>Domingo</h2>
-                        <p>Das 12h as 16h</p>
+                        <div class="img">
+                            <img src="/image/carretao.png" alt="" srcset="">
+                        </div>
                     </div>
                 </div>
                 
+                <!--  -------------------------------------------------- -->
+                <div class="promo">
+                    <div>
+                        <h1>Quinta do Micão</h1>
+                        <p>Toda Quinta-Feira temos o dia do Mico, cobramos uma taxa de R$20,00 por pessoa e o cardápio fica a <span>Preço de Custo</span></p>
+                        <p>Obs.: Na quinta do micão não embalos nada para levar.</p>
+                    </div>
+                    <div>
+                        <h1>Sexta do Chop</h1>
+                        <p>Toda Sexta-Feira <span>CHOP A R$4,00</span> para a mesa que pedi pelo menos uma carne da casa. </p>
+                        <p>Obs.: Mesa com até duas pessoas pode ser um petisco/entrada no lugar da carne.</p>
+                    </div>
+                    <div>
+                        <h1>Sábado do Drink</h1>
+                        <p>Todo Sábado temos <span>Drink em Dose Dupla</span>, peça 1 drink e leve 2 </p>
+                    </div>
+                </div>
+                <div class="sobre">
+                    <div class="hr-titulo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                            <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                            </svg>
+                        <h1>Horário de Funcionamento</h1>
+                    </div>
+                    <div class="horarios">
+                        <div>
+                            <h2>Segunda, Terça e Quarta</h2>
+                            <p>Fechados</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h2>Quinta-Feira</h2>
+                            <p>Das 19h as 23h</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h2>Sexta-Feira e Sábado</h2>
+                            <p>Das 18h as 23h</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h2>Domingo</h2>
+                            <p>Das 12h as 16h</p>
+                        </div>
+                    </div>
+                
+                </div>
             </div>
                 
 
         </main>
-    </div>
-    
+   
+
+    <!-- 
+
+        {
+        "title": "Kieber",
+        "content": "Deliciosas bolinhas de frango fritas recheadas com presunto e queijo",
+        "price1": "R$41,00",
+        "price2": "R$27,00",
+        "img": "image/carretao.png",
+        "class1": "tudo",
+        "class2": "entradas"
+    }
+
+     -->
+
+
     <script src="card.js"></script>
 
     <script src="main.js"></script>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>

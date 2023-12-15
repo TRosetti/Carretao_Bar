@@ -250,16 +250,6 @@
     }
     ,
     {
-        "title": "Kieber",
-        "content": "Deliciosas bolinhas de frango fritas recheadas com presunto e queijo",
-        "price1": "R$41,00",
-        "price2": "R$27,00",
-        "img": "image/carretao.png",
-        "class1": "tudo",
-        "class2": "entradas"
-    }
-    ,
-    {
         "title": "Linguiça com Fritas",
         "content": "350g de linguicinha artesanal grelhada acompanhado de batatas fritas",
         "price1": "R$49,00",

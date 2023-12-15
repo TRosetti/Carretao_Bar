@@ -55,6 +55,10 @@ li{
     background-color: #FFCC2A;
 }
 
+.alert-heading{
+    text-decoration: underline;
+}
+
 /*      Main     */
 
 
@@ -115,34 +119,53 @@ li{
 
 .wrapper{
     display: flex;
-    overflow-x: scroll !important;
+    flex-direction: row;
+    overflow-x: auto;
 }
 
 .wrapper::-webkit-scrollbar{
     width: 0px;
+    height: 0px;
 }
 .wrapper label{
     margin: 0 10px;
 }
 
 #nav-2{
-    margin-top: 30px;
-    margin-bottom: 100px;
+    position: sticky;
+    padding: 10px;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.116);
 }
 .btn-color{
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: none;
     color: black !important;
     background-color: inherit;
     border-radius: 10px;
     padding: 5px 15px;
     margin: 0 5px;
+    position: relative;
 }
 
-.btn-color.active{
-    background-color: #FFCC2A;
-    border: none;
+.active{
+    color: #FFCC2A !important; 
     font-weight: bold;
+    padding: 3px;
 }
+
+.active::before{
+    content: ' ';
+    width: 100%;
+    height: 2px;
+    color: black;
+    background-color: #FFCC2A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 
 
