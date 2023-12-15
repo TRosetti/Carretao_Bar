@@ -1,7 +1,7 @@
 [
     {
-        "title": "Chop",
-        "content": "Chop Pilsen da Reserva",
+        "title": "Chopp",
+        "content": "Chopp Pilsen - Reserva do Gerente",
         "price1": "R$8,00",
         "price2": "R$5,00",
         "img": "image/chop.jpeg",
@@ -39,7 +39,7 @@
     },
     {
         "title": "German Pilsen",
-        "content": "Cerveja Artesanal Reserva do Gerente",
+        "content": "Cerveja Artesanal - Reserva do Gerente",
         "price1": "R$13,00",
         "price2": "R$7,00",
         "img": "image/pilsen.jpeg",
@@ -49,7 +49,7 @@
     ,
     {
         "title": "American Ipa",
-        "content": "Cerveja Artesanal Reserva do Gerente",
+        "content": "Cerveja Artesanal - Reserva do Gerente",
         "price1": "R$13,00",
         "price2": "R$7,00",
         "img": "image/ipa.jpeg",
@@ -210,7 +210,7 @@
     ,
     {
         "title": "Bolinho de Carne",
-        "content": "Porção com 350g de bolinhas de carne frita",
+        "content": "Porção com 350g de bolinho de carne",
         "price1": "R$38,00",
         "price2": "R$20,00",
         "img": "image/bolinho-de-carne.jpeg",
@@ -220,7 +220,7 @@
     ,
     {
         "title": "Bolinha de Queijo",
-        "content": "Porção com 350g de bolinhas de queijo crocantes",
+        "content": "Porção com 350g de bolinhas de queijo",
         "price1": "R$38,00",
         "price2": "R$20,00",
         "img": "image/bolinha-de-queijo.jpeg",
@@ -259,7 +259,7 @@
         "class2": "entradas"
     },
     {
-        "title": "Parilla de Ancho",
+        "title": "Parrilla de Ancho",
         "content": "450g de Ancho, 150g de Linguiça artesanal, 350g fritas, farofa e tomate",
         "price1": "R$112,00",
         "price2": "R$47,00",
@@ -269,7 +269,7 @@
     }
     ,
     {
-        "title": "Parilla de Picanha",
+        "title": "Parrilla de Picanha",
         "content": "450g de Picanha, 150g de Linguiça artesanal, 350g fritas, farofa e tomate.",
         "price1": "R$135,00",
         "price2": "R$67,00",

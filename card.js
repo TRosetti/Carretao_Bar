@@ -139,7 +139,7 @@ function changeMenu() {
 
     function seg_ter_qua(){
         h4_alerta.innerHTML = dias.textContent
-        my_1.innerHTML = 'Estamos fechado hoje, confira os dias de funcionamento clicando em Sobre ao lado de Promoções.'
+        my_1.innerHTML = 'Estamos fechados hoje, confira os dias de funcionamento clicando em Sobre ao lado de Promoções.'
     
         priceRegular.forEach((price) =>{
             price.style.textDecoration = 'none'
@@ -167,7 +167,7 @@ function changeMenu() {
     
     function sex(){
         h4_alerta.innerHTML = 'Promoção do Dia'
-        my_1.innerHTML = 'Hoje o <span>Chop R$4,00</span> para as mesas que pedirem pelo menos uma carne.'
+        my_1.innerHTML = 'Hoje o <span>Chopp R$4,00</span> para as mesas que pedirem pelo menos uma carne.'
 
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
