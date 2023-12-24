@@ -1,111 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-    createCards().then(() => {
-        menuOrganizer();
-        changeMenu();
-    });
-});
 
-function createCards() {
-    return new Promise((resolve, reject) => {
-        // Obtenha o contêiner onde os cards serão adicionados
-        const cardContainer = document.getElementById("cardContainer");
-
-        // Use a função fetch para carregar os dados do arquivo JSON
-        fetch("cardapio.json")
-            .then(response => response.json())
-            .then(data => {
-                // Itere sobre os dados e crie um card para cada item
-                data.forEach(item => {
-                    // Crie os elementos HTML para o card
-                    const card = document.createElement("div");
-                    card.classList.add("card_");
-                    card.classList.add(item.class1)
-                    card.classList.add(item.class2)
-                    if(item.class3 != undefined){
-                        card.classList.add(item.class3)
-                    }
-
-                    const card_content = document.createElement("div");
-                    card_content.classList.add("card_content");
-
-
-                    const card_title = document.createElement("h2");
-                    card_title.classList.add('card_title')
-                    card_title.textContent = item.title;
-
-                    const card_text = document.createElement("p");
-                    card_text.classList.add('card_text')
-                    card_text.textContent = item.content;
-
-                    const price = document.createElement('div');
-                    price.classList.add('price');
-
-                    const price1 = document.createElement('p');
-                    price1.textContent = item.price1
-
-                    const price2 = document.createElement('p');
-                    price2.classList.add('price_discount')
-                    price2.textContent = item.price2
-
-                    const div_img = document.createElement('div')
-                    div_img.classList.add('img')
-
-                    const img = document.createElement('img')
-                    img.src = item.img;
-
-                    // Adicione os elementos ao card
-                    card.appendChild(card_content);
-                    card_content.appendChild(card_title);
-                    card_content.appendChild(card_text);
-                    card_content.appendChild(price);
-                    price.appendChild(price1);
-                    price.appendChild(price2);
-                    card.appendChild(div_img);
-                    div_img.appendChild(img);
-
-                    // Adicione o card ao contêiner
-                    cardContainer.appendChild(card);
-                });
-
-                // Resolva a Promise após criar todos os cards
-                resolve();
-            })
-            .catch(error => {
-                console.error("Erro ao carregar dados:", error);
-                // Rejeite a Promise em caso de erro
-                reject(error);
-            });
-    });
-}
-
-function menuOrganizer(){
-    const divEntradas= document.getElementById('entradas')
-    const divCarnes = document.getElementById('carnes')
-    const divGuarnicao = document.getElementById('guarnicoes')
-    const divBebida = document.getElementById('bebidas')
-    const divDrinks = document.getElementById('drinks')
-
-    const entradas = document.querySelectorAll('.entradas')
-    entradas.forEach((item) => {
-        divEntradas.appendChild(item)
-    })
-    const carnes = document.querySelectorAll('.carnes')
-    carnes.forEach((item) => {
-        divCarnes.appendChild(item)
-    })
-    const guarnicoes = document.querySelectorAll('.guarnicoes')
-    guarnicoes.forEach((item) => {
-        divGuarnicao.appendChild(item)
-    })
-    const bebidas = document.querySelectorAll('.bebidas')
-    bebidas.forEach((item) => {
-        divBebida.appendChild(item)
-    })
-    const drinks = document.querySelectorAll('.drinks')
-    drinks.forEach((item) => {
-        divDrinks.appendChild(item)
-    })
-}
 
 function changeMenu() {
     let hoje = new Date();
@@ -123,15 +16,13 @@ function changeMenu() {
     const priceRegular = document.querySelectorAll('.price p')
     const priceQuinta = document.querySelectorAll('.price_discount')
 
-
-    
     //  Mudanças para os dias da semana
 
     switch (diaDaSemana) {
         case 0:
             // Domingo
             dias.innerHTML = 'Domingo'
-            dom()
+            dom()            
             break;
         case 1:
             // Segunda-Feira
@@ -166,9 +57,8 @@ function changeMenu() {
         default:
             // Lidar com casos não previstos
     }
-
-   
-
+    
+  
     function seg_ter_qua(){
         h4_alerta.innerHTML = dias.textContent
         my_1.innerHTML = 'Estamos fechados hoje, confira os dias de funcionamento clicando em Sobre ao lado de Promoções.'
@@ -181,7 +71,10 @@ function changeMenu() {
         priceQuinta.forEach((price) =>{
             price.style.display = 'none'
         })
-        promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
+        if(promocoes != null){
+            promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
+        }
+        
     }
     
     function qui(){
@@ -197,8 +90,11 @@ function changeMenu() {
             price.style.textDecoration ='none';
             price.style.color = 'green'
         })
-        promocoes.innerHTML = '<h2 class="card_title">Quinta do <span>Micão</span> </h2>'
-        
+
+        if(promocoes != null){
+            promocoes.innerHTML = '<h2 class="card_title">Quinta do <span>Micão</span> </h2>'
+        }
+       
     }
     
     function sex(){
@@ -214,7 +110,10 @@ function changeMenu() {
             price.style.display = 'none'
            
         })
-        promocoes.innerHTML = '<h2 class="card_title">Chopp a <span>R$4,00</span></h2>'
+        if(promocoes != null){
+            promocoes.innerHTML = '<h2 class="card_title">Chopp a <span>R$4,00</span></h2>'
+        }
+        
     }
     
     function sab(){
@@ -230,7 +129,10 @@ function changeMenu() {
             price.style.display = 'none'
             
         })
-        promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
+        if(promocoes != null){
+            promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
+        }
+        
     }
     
     function dom(){
@@ -245,7 +147,9 @@ function changeMenu() {
         priceQuinta.forEach((price) =>{
             price.style.display = 'none'
         })
-        promocoes.innerHTML = '<h2 class="card_title">Infelizmente hoje não temos promoções</h2>'
+       if(promocoes != null){
+            promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
+        }
     }
     
     li.forEach(function(li){

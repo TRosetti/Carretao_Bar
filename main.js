@@ -27,8 +27,8 @@ function cardapio(){
     sobre_.style.display = 'none'
 
     alerta.style.display = 'block'
-    // search.style.display = 'none'
-    // nav.style.display = 'flex'
+    search.style.display = 'block'
+    nav.style.display = 'flex'
     card.style.display = 'block'
 }
 
@@ -37,8 +37,8 @@ function promo(){
     sobre_.style.display = 'none'
 
     alerta.style.display = 'none'
-    // search.style.display = 'none'
-    // nav.style.display = 'none'
+    search.style.display = 'none'
+    nav.style.display = 'none'
     card.style.display = 'none'
 }
 function sobre(){
@@ -46,14 +46,14 @@ function sobre(){
     promocao.style.display = 'none'
 
     alerta.style.display = 'none'
-    // search.style.display = 'none'
-    // nav.style.display = 'none'
+    search.style.display = 'none'
+    nav.style.display = 'none'
     card.style.display = 'none'
 }
 
 
 
-function changeColor(element) {
+function navBtn(element) {
     // Remove a classe 'active' de todos os botões
     var buttons = document.getElementsByClassName("btn-color");
     for (var i = 0; i < buttons.length; i++) {
@@ -64,4 +64,15 @@ function changeColor(element) {
     element.classList.add("active");
 
 
+    // Scroll no nav
+    const botaoAtivo = document.querySelector('.active')
+
+    if(botaoAtivo){
+        const nav = document.getElementById('navbar')
+        const scrollLeft = botaoAtivo.offsetLeft - (nav.clientWidth - botaoAtivo.clientWidth) / 1.5;
+        nav.scrollLeft = scrollLeft
+    }
+    
+
 }
+

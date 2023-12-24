@@ -26,6 +26,7 @@
                 <div class="m1"></div>
                 <div class="m2"></div>
             </div>
+
             <div class="dia-da-semana">
                 <div class="dropdown">
                     <button class="btn dropdown-toggle dias" data-bs-toggle="dropdown">Quinta-Feira</button>
@@ -47,16 +48,20 @@
     
         <main>
 
+                
+            
+
+
             <div class="alert alert-dismissible fade show">
                 
-                    <h4 class="alert-heading">Promoções</h4>
-                    <p class="my-1">Confira nossas promoções no link abaixo ou clicando em Promoções ao lado do cardapio.</p>
-        
-                    <button class="btn-close" data-bs-dismiss="alert"></button> 
-        
+                <h4 class="alert-heading">Promoções</h4>
+                <p class="my-1">Confira nossas promoções no link abaixo ou clicando em Promoções ao lado do cardapio.</p>
+    
+                <button class="btn-close" data-bs-dismiss="alert"></button> 
+    
             </div>
-                
-            <div class="wrapper">
+
+            <div class="wrapper " >
                 <input type="radio"  name="grupo" id="btn1" class="btn_check" checked>
                 <label for="btn1" class="btn_" btn1="" onclick="cardapio()">Cardapio</label>
 
@@ -68,8 +73,7 @@
 
               
             </div>
-
-            <div class="search" style="display: none;">
+            <div class="search">
                 <button class="btn_search">
                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="16" y="17.7668" width="2.49861" height="10.0358" rx="1.24931" transform="rotate(-45 16 17.7668)" fill="#B8B8B8"/>
@@ -78,24 +82,25 @@
                         </svg>
                         
                 </button>
-                <input type="text" class="form_search" placeholder="Search">
+                <input type="text" name="searchBar" id="searchBar" class="form_search" placeholder="Search">
             </div>
     </div>
-            <!-- <div class="mb-3  nav_2" id="nav-2">
-                <div class="container wrapper ">
-                    <a href="#promocoes" class="btn-color active" onclick="changeColor(this)" value="tudo">Promoções</a>
-                    <a href="#entradas" class="btn-color" onclick="changeColor(this)" value="entradas">Entradas</a>
-                    <a href="#guarnicoes" class="btn-color" onclick="changeColor(this)" value="guarnicoes">Guarnição</a>
-                    <a href="#carnes" class="btn-color" onclick="changeColor(this)" value="carnes">Carnes</a>
-                    <a href="#bebidas" class="btn-color" onclick="changeColor(this)" value="bebidas">Bebidas</a>
-                    <a href="#drinks" class="btn-color" onclick="changeColor(this)" value="drinks">Drinks</a>
+            <div class="mb-3  nav_2" id="nav-2">
+                <div class="container wrapper" id="navbar">
+                    <a href="#promocoes" class="btn-color active" onclick="navBtn(this)"  >Promoções</a>
+                    <a href="#entradas" class="btn-color" onclick="navBtn(this)">Entradas</a>
+                    <a href="#guarnicoes" class="btn-color" onclick="navBtn(this)">Guarnição</a>
+                    <a href="#carnes" class="btn-color" onclick="navBtn(this)">Carnes</a>
+                    <a href="#bebidas" class="btn-color" onclick="navBtn(this)">Bebidas</a>
+                    <a href="#drinks" class="btn-color" onclick="navBtn(this)" >Drinks</a>
                 </div>
-            </div> -->
+            </div>
 
 <!-- ---------------------  Card   --------------------- -->
 
 
             <div class="container">
+                <div class="cardSearched"></div>
                 <div id="cardContainer">
                     <!-- <div class="card_" style="display: none;">
                         <div class="card_content">
@@ -111,26 +116,26 @@
                         </div>
                     </div> -->
 
-                    <div id="promocoes" >
+                    <section id="promocoes" >
                         <h2 >Promoções</h2>
                         <div class="card_"></div>
-                    </div>
+                    </section>
 
-                    <div id="entradas">
+                    <section id="entradas">
                         <h2>Entradas</h2>
-                    </div>
-                    <div id="guarnicoes">
+                    </section>
+                    <section id="guarnicoes">
                         <h2>Guarnições</h2>
-                    </div>
-                    <div id="carnes">
+                    </section>
+                    <section id="carnes">
                         <h2>Carnes</h2>
-                    </div>
-                    <div id="bebidas">
+                    </section>
+                    <section id="bebidas">
                         <h2>Bebidas</h2>
-                    </div>
-                    <div id="drinks">
+                    </section>
+                    <section id="drinks">
                         <h2>Drinks</h2>
-                    </div>
+                    </section>
                 </div>
                 
                 <!--  -------------------------------------------------- -->
@@ -203,6 +208,8 @@
 
 
     <script src="card.js"></script>
+    <script src="testeCard.js"></script>
+  
 
     <script src="main.js"></script>
 

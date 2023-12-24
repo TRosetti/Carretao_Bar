@@ -6,6 +6,10 @@
 
 /*  Header */
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 header{
     margin-top: 30px;
@@ -122,7 +126,6 @@ li{
     display: flex;
     flex-direction: row;
     overflow-x: auto;
-    margin: 20px 0;
 }
 
 .wrapper::-webkit-scrollbar{
@@ -130,8 +133,7 @@ li{
     height: 0px;
 }
 .wrapper label{
-    font-size: 1.8em;
-    margin:0  10px ;
+    margin: 0 10px;
 }
 
 #nav-2{
@@ -142,23 +144,23 @@ li{
     top: 0;
     background-color: rgb(255, 255, 255);
     margin-left: 0;
-    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.116);
+    /* box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.116); */
+}
+
+:target {
+    scroll-margin-top: 55px; /* Ajuste este valor conforme necessário */
 }
 .btn-color{
     text-decoration: none;
     font-size: 1.3em;
     color: black !important;
     background-color: inherit;
-    border-radius: 10px;
     padding: 5px 15px;
-    margin: 0 5px;
     position: relative;
 }
 
 .active{
     color: #FFCC2A !important; 
-    font-weight: bold;
-    padding: 3px;
 }
 
 .active::before{
@@ -256,10 +258,9 @@ span{
 
 
 #promocoes > h2, #entradas > h2, #carnes > h2, #guarnicoes > h2, #bebidas > h2, #drinks > h2{
-    /* position: sticky;
-    top: 59px; */
-    margin: 0 10px;
+
     background: white;
     padding: 10px 0;
     font-weight: bolder;
 }   
+
