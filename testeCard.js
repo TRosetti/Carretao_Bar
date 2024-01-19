@@ -9,6 +9,7 @@ const loadCard = async () => {
         cardContainer.innerHTML += menu()
         changeMenu()
         menuOrganizer()
+        desaparecer()
     } catch (err) {
         console.log(err);
     }
@@ -43,12 +44,12 @@ const displayCards = (cards) =>{
         .map((card) => {
 
             return `
-            <div class="card_  ${card.class1}">
+            <div class="card_  ${card.class1} ${card.id}" onclick="cardDetails(this)">
                 <div class="card_content">
                     <h2 class="card_title">${card.title}</h2>
                     <p class="card_text">${card.content}</p>
                     <div class="price">
-                        <p>${card.price1}</p>
+                        <p class='normal_price_${card.id}'>${card.price1}</p>
                         <p class="price_discount">${card.price2}</p>
                     </div>
                 </div>
@@ -67,6 +68,12 @@ const displayCards = (cards) =>{
 }
 
 loadCard()
+
+function cardDetails(cardId){
+    // const cardDetail = document.querySelector('.cardDetail')
+    // cardDetail.style.display = 'block'
+    console.log(cardId)
+}
 
 function menu(){
         return `
@@ -123,3 +130,11 @@ function menuOrganizer(){
         divDrinks.appendChild(item)
     })
 }
+
+
+
+function desaparecer(){
+    const b = document.querySelector('.e6')
+    b.style.display = 'none'
+}
+

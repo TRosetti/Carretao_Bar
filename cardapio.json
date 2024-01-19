@@ -1,13 +1,105 @@
 [
     {
+        "id": "e1",
+        "title": "Bolinho de Carne",
+        "content": "Porção com 350g de bolinho de carne",
+        "price1": "R$38,00",
+        "price2": "R$20,00",
+        "img": "image/bolinho-de-carne.jpeg",
+        "class1": "entradas"
+    }
+    ,
+    {
+        "id": "e2",
+        "title": "Bolinha de Queijo",
+        "content": "Porção com 350g de bolinhas de queijo",
+        "price1": "R$38,00",
+        "price2": "R$20,00",
+        "img": "image/bolinha-de-queijo.jpeg",
+        "class1": "entradas"
+    }
+    ,
+    {
+        "id": "e3",
+        "title": "Pão de Alho (2 unidades)",
+        "content": "Dois pães assados com toque de alho e ervas",
+        "price1": "R$15,00",
+        "price2": "R$9,00",
+        "img": "image/pao-de-alho.jpeg",
+        "class1": "entradas"
+    }
+    ,
+    {
+        "id": "e4",
+        "title": "Porção de Fritas",
+        "content": "Porção de 350g de batatas fritas crocantes",
+        "price1": "R$18,00",
+        "price2": "R$7,00",
+        "img": "image/batata.jpg",
+        "class1": "entradas"
+    }
+    ,
+    {
+        "id": "e5",
+        "title": "Linguiça com Fritas",
+        "content": "350g de linguicinha artesanal grelhada acompanhado de batatas fritas",
+        "price1": "R$49,00",
+        "price2": "R$24,00",
+        "img": "image/linguica-com-fritas.jpg",
+        "class1": "entradas"
+    },
+    {
+        "id": "e6",
+        "title": "Kieber",
+        "content": "Deliciosas bolinhas de frango fritas recheadas com presunto e queijo",
+        "price1": "R$41,00",
+        "price2": "R$27,00",
+        "img": "image/carretao.png",
+        "class1": "entradas"
+    }
+    ,
+    {
+        "id": "c1",
+        "title": "Parrilla de Ancho",
+        "content": "450g de Ancho, 150g de Linguiça artesanal, 350g fritas, farofa e tomate",
+        "price1": "R$112,00",
+        "price2": "R$47,00",
+        "img": "image/ancho.jpg",
+        "class1": "carnes"
+    }
+    ,
+    {
+        "id": "c2",
+        "title": "Parrilla de Picanha",
+        "content": "450g de Picanha, 150g de Linguiça artesanal, 350g fritas, farofa e tomate.",
+        "price1": "R$135,00",
+        "price2": "R$67,00",
+        "img": "image/picanha.jpg",
+        "class1": "carnes"
+    }
+    ,
+    {
+        "id": "g1",
+        "title": "Arroz Clássico",
+        "content": "Porção com 350g de arroz branco, perfeito para acompanhar qualquer prato",
+        "price1": "R$12,00",
+        "price2": "R$10,00",
+        "img": "image/arroz.jpeg",
+        "class1": "guarnicoes" 
+    }
+    ,
+    {
+        "id": "b1",
         "title": "Chopp",
         "content": "Chopp Pilsen - Reserva do Gerente",
         "price1": "R$8,00",
         "price2": "R$5,00",
+        "price_sexta": "R$4,90",
         "img": "image/chop.jpeg",
         "class1": "bebidas"
     },
     {
+        "id": "b2",
         "title": "Amstel",
         "content": "Amstel 600ml",
         "price1": "R$12,00",
@@ -17,6 +109,7 @@
         
     },
     {
+        "id":"b3",
         "title": "Heineken",
         "content": "Heineken 600ml",
         "price1": "R$16,00",
@@ -26,6 +119,7 @@
     }
     ,
     {
+        "id": "b4",
         "title": "Heineken Zero",
         "content": "Heineken Zero long neck",
         "price1": "R$10,00",
@@ -34,6 +128,7 @@
         "class1": "bebidas"
     },
     {
+        "id": "b5",
         "title": "German Pilsen",
         "content": "Cerveja Artesanal - Reserva do Gerente",
         "price1": "R$13,00",
@@ -43,6 +138,7 @@
     }
     ,
     {
+        "id": "b6",
         "title": "American Ipa",
         "content": "Cerveja Artesanal - Reserva do Gerente",
         "price1": "R$13,00",
@@ -52,6 +148,7 @@
     }
     ,
     {
+        "id": "b7",
         "title": "Água Mineral",
         "content": "Garrafinha de água mineral",
         "price1": "R$4,00",
@@ -61,6 +158,7 @@
     }
     ,
     {
+        "id": "b8",
         "title": "Água com Gás",
         "content": "Garrafinha de água com gás",
         "price1": "R$5,00",
@@ -70,6 +168,7 @@
     }
     ,
     {
+        "id": "b9",
         "title": "Refrigerantes",
         "content": "Coca-Cola (normal e zero), Guaraná (normal e zero)",
         "price1": "R$6,00",
@@ -79,6 +178,7 @@
     }
     ,
     {
+        "id": "b10",
         "title": "Suco de Polpa",
         "content": "Manga, Acerola, Caju, Graviola, Maracujá",
         "price1": "R$7,00",
@@ -88,6 +188,7 @@
     }
     ,
     {
+        "id": "d1",
         "title": "Caipirinha",
         "content": "Cachaça, limão e xarope de açúcar em equilíbrio brasileiro",
         "price1": "R$18,00",
@@ -97,6 +198,7 @@
     }
     ,
     {
+        "id": "d2",
         "title": "Caipirinha de Jambu",
         "content": "Caipirinha clássica com a famosa cachaça de jambu",
         "price1": "R$26,00",
@@ -106,6 +208,7 @@
     }
     ,
     {
+        "id": "d3",
         "title": "Caipivodka",
         "content": "Vodka, limão e xarope de açúcar em harmonia refrescante",
         "price1": "R$20,00",
@@ -116,6 +219,7 @@
 
     ,
     {
+        "id": "d4",
         "title": "Gin Tônica",
         "content": "Gin, água tônica e toque cítrico, elegância simples",
         "price1": "R$21,00",
@@ -125,6 +229,7 @@
     }
     ,
     {
+        "id": "d5",
         "title": "Gin Tônica Saborizado",
         "content": "Gin, água tônica e Monin de diferentes sabores..",
         "price1": "R$26,00",
@@ -134,6 +239,7 @@
     }
     ,
     {
+        "id": "d6",
         "title": "Mojito",
         "content": "Rum, hortelã, limão e frescor vibrante",
         "price1": "R$25,00",
@@ -143,6 +249,7 @@
     }
     ,
     {
+        "id": "d7",
         "title": "Cuba Libre",
         "content": "Rum, Coca-cola e limão, clássico cubano",
         "price1": "R$20,00",
@@ -152,6 +259,7 @@
     }
     ,
     {
+        "id": "d8",
         "title": "Negroni",
         "content": "Gin, vermute e Campari, o equilíbrio italiano",
         "price1": "R$25,00",
@@ -161,6 +269,7 @@
     }
     ,
     {
+        "id": "d9",
         "title": "Mango Loco",
         "content": "Vodka e energético sabor Mango Loco",
         "price1": "R$24,00",
@@ -170,6 +279,7 @@
     }
     ,
     {
+        "id": "d10",
         "title": "Pacific Punch",
         "content": "Vodka e energético sabor Pacific Punch",
         "price1": "R$24,00",
@@ -177,80 +287,10 @@
         "img": "image/pacific-punch.jpeg",
         "class1": "drinks" 
     }
-    ,
-    {
-        "title": "Bolinho de Carne",
-        "content": "Porção com 350g de bolinho de carne",
-        "price1": "R$38,00",
-        "price2": "R$20,00",
-        "img": "image/bolinho-de-carne.jpeg",
-        "class1": "entradas"
-    }
-    ,
-    {
-        "title": "Bolinha de Queijo",
-        "content": "Porção com 350g de bolinhas de queijo",
-        "price1": "R$38,00",
-        "price2": "R$20,00",
-        "img": "image/bolinha-de-queijo.jpeg",
-        "class1": "entradas"
-    }
-    ,
-    {
-        "title": "Pão de Alho (2 unidades)",
-        "content": "Dois pães assados com toque de alho e ervas",
-        "price1": "R$15,00",
-        "price2": "R$9,00",
-        "img": "image/pao-de-alho.jpeg",
-        "class1": "entradas"
-    }
-    ,
-    {
-        "title": "Porção de Fritas",
-        "content": "Porção de 350g de batatas fritas crocantes",
-        "price1": "R$18,00",
-        "price2": "R$7,00",
-        "img": "image/batata.jpg",
-        "class1": "entradas"
-    }
-    ,
-    {
-        "title": "Linguiça com Fritas",
-        "content": "350g de linguicinha artesanal grelhada acompanhado de batatas fritas",
-        "price1": "R$49,00",
-        "price2": "R$24,00",
-        "img": "image/linguica-com-fritas.jpg",
-        "class1": "entradas"
-    },
-    {
-        "title": "Parrilla de Ancho",
-        "content": "450g de Ancho, 150g de Linguiça artesanal, 350g fritas, farofa e tomate",
-        "price1": "R$112,00",
-        "price2": "R$47,00",
-        "img": "image/ancho.jpg",
-        "class1": "carnes"
-    }
-    ,
-    {
-        "title": "Parrilla de Picanha",
-        "content": "450g de Picanha, 150g de Linguiça artesanal, 350g fritas, farofa e tomate.",
-        "price1": "R$135,00",
-        "price2": "R$67,00",
-        "img": "image/picanha.jpg",
-        "class1": "carnes"
-    }
-    ,
-    {
-        "title": "Arroz Clássico",
-        "content": "Porção com 350g de arroz branco, perfeito para acompanhar qualquer prato",
-        "price1": "R$12,00",
-        "price2": "R$10,00",
-        "img": "image/arroz.jpeg",
-        "class1": "guarnicoes" 
-    }
-    ,
+   ,
     
     {
+        "id": "d11",
         "title": "Cachaça de Jambu",
         "content": "Dose de Cachaça de Jambu",
         "price1": "R$14,00",
@@ -259,6 +299,7 @@
         "class1": "drinks"
     },
     {
+        "id": "d12",
         "title": "Campari",
         "content": "Dose de Campari",
         "price1": "R$11,00",
@@ -268,6 +309,7 @@
     }
     ,
     {
+        "id": "d13",
         "title": "Cachaça",
         "content": "Dose de Cachaça",
         "price1": "R$10,00",
@@ -277,6 +319,7 @@
     }
     ,
     {
+        "id": "d14",
         "title": "Vodka",
         "content": "Dose de Vodka",
         "price1": "R$10,00",
@@ -286,6 +329,7 @@
     }
     ,
     {
+        "id": "d15",
         "title": "Gin",
         "content": "Dose de Gin",
         "price1": "R$10,00",
@@ -294,6 +338,7 @@
         "class1": "drinks"
     },
     {
+        "id": "d16",
         "title": "Rum",
         "content": "Dose de Rum",
         "price1": "R$10,00",

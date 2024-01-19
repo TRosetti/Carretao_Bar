@@ -20,8 +20,6 @@ const priceQuinta = document.querySelectorAll('.price_discount')
 const card_content = document.querySelectorAll('.card_content')
 
 
-
-
 function cardapio(){
     promocao.style.display = 'none'
     sobre_.style.display = 'none'

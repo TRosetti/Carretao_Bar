@@ -74,7 +74,7 @@ function changeMenu() {
         if(promocoes != null){
             promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
         }
-        
+
     }
     
     function qui(){
@@ -94,13 +94,14 @@ function changeMenu() {
         if(promocoes != null){
             promocoes.innerHTML = '<h2 class="card_title">Quinta do <span>Micão</span> </h2>'
         }
-       
+        
     }
     
     function sex(){
         h4_alerta.innerHTML = 'Promoção do Dia'
-        my_1.innerHTML = 'Hoje o <span>Chopp R$4,00</span> para as mesas que pedirem pelo menos uma carne.'
+        my_1.innerHTML = 'Hoje o <span>Chopp R$4,90</span> a noite toda!!! <br/>  <br/>Para participar da promoção cada pessoa deve ter uma valor de 20 reais de consumo de petisco ou carne da casa.'
         const promocoes = document.querySelector('#promocoes > div.card_')
+        const chopp_price = document.querySelector('.normal_price_b1')
 
         priceRegular.forEach((price) =>{
             price.style.textDecoration ='none'
@@ -111,7 +112,7 @@ function changeMenu() {
            
         })
         if(promocoes != null){
-            promocoes.innerHTML = '<h2 class="card_title">Chopp a <span>R$4,00</span></h2>'
+            promocoes.innerHTML = '<h2 class="card_title">Chopp a <span>R$4,90</span></h2>'
         }
         
     }
@@ -132,7 +133,6 @@ function changeMenu() {
         if(promocoes != null){
             promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
         }
-        
     }
     
     function dom(){
@@ -150,6 +150,7 @@ function changeMenu() {
        if(promocoes != null){
             promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
         }
+
     }
     
     li.forEach(function(li){
@@ -157,23 +158,25 @@ function changeMenu() {
             dias.innerHTML = li.textContent
             if(dias.textContent == 'Segunda-Feira'){
                 seg_ter_qua()
-    
+                
             }else if(dias.textContent == 'Terça-Feira'){
                 seg_ter_qua()
     
             }else if(dias.textContent == 'Quarta-Feira'){
                 seg_ter_qua()
-    
+                
             }else if(dias.textContent == 'Quinta-Feira'){
                 qui()
-    
+                
             }else if(dias.textContent == 'Sexta-Feira'){
                 sex()
-    
+                
             }else if(dias.textContent == 'Sabado'){
                 sab()
+                
             }else if(dias.textContent == 'Domingo'){
                 dom()
+                
             }
         })
     })
