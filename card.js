@@ -99,7 +99,7 @@ function changeMenu() {
     
     function sex(){
         h4_alerta.innerHTML = 'Promoção do Dia'
-        my_1.innerHTML = 'Hoje o <span>Chopp R$4,00</span> para as mesas que pedirem pelo menos uma carne.'
+        my_1.innerHTML = ''Hoje o <span>Chopp R$4,90</span> a noite toda!!! <br/>  <br/>Para participar da promoção cada pessoa deve ter uma valor de 20 reais de consumo de petisco ou carne da casa.'
         const promocoes = document.querySelector('#promocoes > div.card_')
 
         priceRegular.forEach((price) =>{
@@ -111,7 +111,7 @@ function changeMenu() {
            
         })
         if(promocoes != null){
-            promocoes.innerHTML = '<h2 class="card_title">Chopp a <span>R$4,00</span></h2>'
+            promocoes.innerHTML = '<h2 class="card_title">Chopp a <span>R$4,90</span></h2>'
         }
         
     }
