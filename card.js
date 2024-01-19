@@ -99,7 +99,11 @@ function changeMenu() {
     
     function sex(){
         h4_alerta.innerHTML = 'Promoção do Dia'
+<<<<<<< HEAD
         my_1.innerHTML = 'Hoje o <span>Chopp R$4,90</span> a noite toda!!! <br/>  <br/>Para participar da promoção cada pessoa deve ter uma valor de 20 reais de consumo de petisco ou carne da casa.'
+=======
+        my_1.innerHTML = ''Hoje o <span>Chopp R$4,90</span> a noite toda!!! <br/>  <br/>Para participar da promoção cada pessoa deve ter uma valor de 20 reais de consumo de petisco ou carne da casa.'
+>>>>>>> b6316d82cb96d4d242794fbc2072c618e9461ac6
         const promocoes = document.querySelector('#promocoes > div.card_')
         const chopp_price = document.querySelector('.normal_price_b1')
 
