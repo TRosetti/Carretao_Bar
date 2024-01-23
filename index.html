@@ -15,6 +15,7 @@
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/popup.css">
     <!-- <link rel="stylesheet" href="css/cardDetail.css"> -->
     <title>Document</title>
 </head>
@@ -197,26 +198,30 @@
 
         </main>
    
-<!-- 
-        <div class="cardDetail">
-            <div class="closeButton" onclick="closeButtonDetails()">&times;</div>
-            <img src="/image/jambu.png" alt="jambu">
-            <div class="details">
-                <h1>Item1</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias earum, assumenda fuga id velit dolorem quisquam, eveniet ad suscipit, fugit doloremque. Modi minus et ex sunt accusamus, quaerat eos voluptas?</p>
-
-                <div class="price">
-                    <p>R$10,00</p>
-                    <p class="price_discount">R$5,00</p>
+        <aside class="popup">
+            <div class="cardDetail">
+                <img src="" alt="imagem aleatoria">
+                <div class="popUp_text">
+                    <h1>${cardTitle}</h1>
+                    <p>${cardText}</p>
+                    <div class="price">
+                        <p class="disabled normal-popup">${normalPrice}</p>
+                        <p class="price_active desconto-popup">${discountPrice}</p>
+                    </div>
                 </div>
+                <div class="closePopup" onclick="closePopup()">&times;</div>
             </div>
-        </div> -->
+        </aside>
+
+
+
 
     <script src="./js/card.js"></script>
     <script src="./js/testeCard.js"></script>
   
 
     <script src="./js/main.js"></script>
+    <script src="./js/cardDetail.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 

@@ -1,0 +1,71 @@
+
+.popup{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
+
+.cardDetail{
+    position:fixed; 
+    margin: auto;
+    background-color: #fff;
+    z-index:10; 
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 65vh;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cardDetail img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+}
+
+.closePopup{
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: #4A4A4A;
+
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+.popUp_text{
+    margin-top: 30px ;
+}
+
+.popUp_text h1{
+    font-size: 1.8em;
+}
+.popUp_text p{
+    font-size: 1.2em;
+}
+
+.popUp_text .price {
+    font-size: 1.3em;
+}
+
+
+.desconto-popup{
+    display: none;
+}

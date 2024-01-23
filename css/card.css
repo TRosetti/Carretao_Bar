@@ -32,6 +32,12 @@
 .price_discount{
     color: green;
 }
+
+.disabled{
+    text-decoration: line-through !important;
+    color: black !important;
+}
+
 img{
 
     border-radius: 5px;

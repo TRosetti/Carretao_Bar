@@ -13,7 +13,7 @@ function changeMenu() {
     const dias = document.querySelector('.dias')
     const li = document.querySelectorAll('li')
 
-    const priceRegular = document.querySelectorAll('.price p')
+    const priceRegular = document.querySelectorAll('.normal_price')
     const priceQuinta = document.querySelectorAll('.price_discount')
 
     //  Mudanças para os dias da semana
@@ -74,7 +74,8 @@ function changeMenu() {
         if(promocoes != null){
             promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
         }
-
+        normalPricePopup.classList.remove('disabled')
+        descountPricePopup.style.display = 'none'
     }
     
     function qui(){
@@ -94,7 +95,9 @@ function changeMenu() {
         if(promocoes != null){
             promocoes.innerHTML = '<h2 class="card_title">Quinta do <span>Micão</span> </h2>'
         }
-        
+
+        normalPricePopup.classList.add('disabled')
+        descountPricePopup.style.display = 'inline-block'
     }
     
     function sex(){
@@ -114,7 +117,8 @@ function changeMenu() {
         if(promocoes != null){
             promocoes.innerHTML = '<h2 class="card_title">Chopp a <span>R$4,90</span></h2>'
         }
-        
+        normalPricePopup.classList.remove('disabled')
+        descountPricePopup.style.display = 'none'
     }
     
     function sab(){
@@ -133,6 +137,8 @@ function changeMenu() {
         if(promocoes != null){
             promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
         }
+        normalPricePopup.classList.remove('disabled')
+        descountPricePopup.style.display = 'none'
     }
     
     function dom(){
@@ -150,6 +156,8 @@ function changeMenu() {
        if(promocoes != null){
             promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
         }
+        normalPricePopup.classList.remove('disabled')
+        descountPricePopup.style.display = 'none'
 
     }
     

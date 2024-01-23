@@ -14,7 +14,7 @@ const sobre_ = document.querySelector('.sobre')
 const dias = document.querySelector('.dias')
 const li = document.querySelectorAll('li')
 
-const priceRegular = document.querySelectorAll('.price p')
+const priceRegular = document.querySelectorAll('.normal_price')
 const priceQuinta = document.querySelectorAll('.price_discount')
 
 const card_content = document.querySelectorAll('.card_content')

@@ -4,7 +4,7 @@ const loadCard = async () => {
     try{
         const res = await fetch('cardapio.json');
         itens = await res.json();
-        console.log(itens)
+        // console.log(itens)
         displayCards(itens)
         cardContainer.innerHTML += menu()
         changeMenu()
@@ -49,7 +49,7 @@ const displayCards = (cards) =>{
                     <h2 class="card_title">${card.title}</h2>
                     <p class="card_text">${card.content}</p>
                     <div class="price">
-                        <p class='normal_price_${card.id}'>${card.price1}</p>
+                        <p class='normal_price'>${card.price1}</p>
                         <p class="price_discount">${card.price2}</p>
                     </div>
                 </div>
@@ -69,10 +69,8 @@ const displayCards = (cards) =>{
 
 loadCard()
 
-function cardDetails(cardId){
-    
-    console.log(cardId)
-}
+
+
 
 function menu(){
         return `
