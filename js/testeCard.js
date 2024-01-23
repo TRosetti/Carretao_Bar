@@ -70,8 +70,7 @@ const displayCards = (cards) =>{
 loadCard()
 
 function cardDetails(cardId){
-    // const cardDetail = document.querySelector('.cardDetail')
-    // cardDetail.style.display = 'block'
+    
     console.log(cardId)
 }
 
