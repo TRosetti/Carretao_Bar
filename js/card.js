@@ -136,7 +136,7 @@ function changeMenu() {
         })
         if(promocoes != null){
             promocoes.innerHTML = ''
-            // promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
+            promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
         }
         normalPricePopup.classList.remove('disabled')
         descountPricePopup.style.display = 'none'
