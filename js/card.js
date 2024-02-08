@@ -93,7 +93,7 @@ function changeMenu() {
         })
 
         if(promocoes != null){
-            promocoes.innerHTML = '<h2 class="card_title">Quinta do <span>Micão</span> </h2>'
+            promocoes.innerHTML = '<h2 class="card_title"><span>Quinta do Micão</span> </h2>'
         }
 
         normalPricePopup.classList.add('disabled')
@@ -115,7 +115,7 @@ function changeMenu() {
            
         })
         if(promocoes != null){
-            promocoes.innerHTML = '<h2 class="card_title">Chopp a <span>R$4,90</span></h2>'
+            promocoes.innerHTML = '<h2 class="card_title"><span>Chopp a  R$4,90</span></h2>'
         }
         normalPricePopup.classList.remove('disabled')
         descountPricePopup.style.display = 'none'
@@ -123,7 +123,7 @@ function changeMenu() {
     
     function sab(){
         h4_alerta.innerHTML = 'Promoção do Dia'
-        my_1.innerHTML = 'Hoje temos <span>Drink em Dobro</span>, peça 1 e leve 2.'
+        my_1.innerHTML = 'Hoje temos <span>Ancho a R$89,00</span>, ja peça o seu!'
         const promocoes = document.querySelector('#promocoes > div.card_')
 
         priceRegular.forEach((price) =>{
@@ -136,7 +136,8 @@ function changeMenu() {
         })
         if(promocoes != null){
             promocoes.innerHTML = ''
-            promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
+            // promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
+            promocoes.innerHTML = '<h2 class="card_title"><span>Ancho a R$89,00</span></h2>'
         }
         normalPricePopup.classList.remove('disabled')
         descountPricePopup.style.display = 'none'
