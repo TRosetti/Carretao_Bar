@@ -130,8 +130,8 @@ function menuOrganizer(){
 
 
 
-function desaparecer(){
-    const b = document.querySelector('.e6')
-    b.style.display = 'none'
-}
+// function desaparecer(){
+//     const b = document.querySelector('.e6')
+//     b.style.display = 'none'
+// }
 

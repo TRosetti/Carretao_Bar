@@ -21,6 +21,16 @@
     ,
     {
         "id": "e3",
+        "title": "Bolinha de Linguiça",
+        "content": "Porção com 350g de bolinhas de linguiça",
+        "price1": "R$38,00",
+        "price2": "R$20,00",
+        "img": "image/bolinha-de-queijo.jpeg",
+        "class1": "entradas"
+    }
+    ,
+    {
+        "id": "e4",
         "title": "Pão de Alho (2 unidades)",
         "content": "Dois pães assados com toque de alho e ervas",
         "price1": "R$15,00",
@@ -30,7 +40,7 @@
     }
     ,
     {
-        "id": "e4",
+        "id": "e5",
         "title": "Porção de Fritas",
         "content": "Porção de 350g de batatas fritas crocantes",
         "price1": "R$18,00",
@@ -40,7 +50,7 @@
     }
     ,
     {
-        "id": "e5",
+        "id": "e6",
         "title": "Linguiça com Fritas",
         "content": "350g de linguicinha artesanal grelhada acompanhado de batatas fritas",
         "price1": "R$49,00",
@@ -49,7 +59,7 @@
         "class1": "entradas"
     },
     {
-        "id": "e6",
+        "id": "e7",
         "title": "Kieber",
         "content": "Deliciosas bolinhas de frango fritas recheadas com presunto e queijo",
         "price1": "R$41,00",
@@ -57,7 +67,7 @@
         "img": "image/carretao.png",
         "class1": "entradas"
     }
-    ,
+   ,
     {
         "id": "c1",
         "title": "Parrilla de Ancho",

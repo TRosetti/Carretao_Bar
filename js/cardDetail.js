@@ -48,6 +48,7 @@ function cardDetails(card){
     const textDetail = document.querySelector('.popUp_text p')
     const normalPricePopup = document.querySelector('.normal-popup')
     const descountPricePopup = document.querySelector('.desconto-popup')
+    
 function createDetailCard(cardTitle, cardText, normalPrice, discountPrice, imgSrc){
     
 
