@@ -1,196 +1,144 @@
-
-
-function changeMenu() {
-    let hoje = new Date();
-    let diaDaSemana = hoje.getDay();
-
-    
-    const h4_alerta = document.querySelector('.alert-heading')
-    const my_1 = document.querySelector('.my-1')
-
- 
-
-    const dias = document.querySelector('.dias')
-    const li = document.querySelectorAll('li')
-
-    const priceRegular = document.querySelectorAll('.normal_price')
-    const priceQuinta = document.querySelectorAll('.price_discount')
-
-    //  Mudanças para os dias da semana
-
-    switch (diaDaSemana) {
-        case 0:
-            // Domingo
-            dias.innerHTML = 'Domingo'
-            dom()            
-            break;
-        case 1:
-            // Segunda-Feira
-            dias.innerHTML = 'Segunda-Feira'
-            seg_ter_qua()
-            break;
-        case 2:
-            // Terça-Feira
-            dias.innerHTML = 'Terça-Feira'
-            seg_ter_qua()
-            break;
-        case 3:
-            // Quarta-Feira
-            dias.innerHTML = 'Quarta-Feira'
-            seg_ter_qua()
-            break;
-        case 4:
-            // Quinta-Feira
-            dias.innerHTML = 'Quinta-Feira'
-            qui()
-            break;
-        case 5:
-            // Sexta-Feira
-            dias.innerHTML = 'Sexta-Feira'
-            sex()
-            break;
-        case 6:
-            // Sábado
-            dias.innerHTML = 'Sábado'
-            sab()
-            break;
-        default:
-            // Lidar com casos não previstos
+const cardContainer = document.querySelector('#cardContainer')
+let itens = []
+const loadCard = async () => {
+    try{
+        const res = await fetch('cardapio.json');
+        itens = await res.json();
+        // console.log(itens)
+        displayCards(itens)
+        cardContainer.innerHTML += menu()
+        changeMenu()
+        menuOrganizer()
+        desaparecer()
+    } catch (err) {
+        console.log(err);
     }
-    
-  
-    function seg_ter_qua(){
-        h4_alerta.innerHTML = dias.textContent
-        my_1.innerHTML = 'Estamos fechados hoje, confira os dias de funcionamento clicando em Sobre ao lado de Promoções.'
-        const promocoes = document.querySelector('#promocoes > div.card_')
-    
-        priceRegular.forEach((price) =>{
-            price.style.textDecoration = 'none'
-            price.style.color = 'green'
-        })
-        priceQuinta.forEach((price) =>{
-            price.style.display = 'none'
-        })
-        if(promocoes != null){
-            promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
-        }
-        normalPricePopup.classList.remove('disabled')
-        descountPricePopup.style.display = 'none'
+};
+
+searchBar.addEventListener('keyup', (key) => {
+    const searchString = key.target.value.toLowerCase();    // .target.value -> vai pegando tudo que está escrito 
+
+    const filteredMenu = itens.filter((item) => {
+        return (
+            item.title.toLowerCase().includes(searchString) ||
+            item.content.toLowerCase().includes(searchString)
+        );
+    });
+
+    displayCards(filteredMenu);
+    const dias = document.querySelector('.dias').textContent
+    console.log(dias)
+    changeMenu()
+
+    if(key.target.value.length == 0){
+        loadCard()
     }
-    
-    function qui(){
-        h4_alerta.innerHTML = 'Dia do Micão'
-        my_1.innerHTML = 'Hoje cobramos uma taxa de R$20,00 por pessoa e o cardapio fica a <span>Preço de Custo</span>.'
-        const promocoes = document.querySelector('#promocoes > div.card_')
-        priceRegular.forEach((price) =>{
-            price.style.textDecoration = 'line-through';
-            price.style.color = 'black'
-        })
-        priceQuinta.forEach((price) =>{
-            price.style.display = 'block';
-            price.style.textDecoration ='none';
-            price.style.color = 'green'
-        })
+});
 
-        if(promocoes != null){
-            promocoes.innerHTML = '<h2 class="card_title"><span>Quinta do Micão</span> </h2>'
-        }
 
-        normalPricePopup.classList.add('disabled')
-        descountPricePopup.style.display = 'inline-block'
-    }
-    
-    function sex(){
-        h4_alerta.innerHTML = 'Promoção do Dia'
-        my_1.innerHTML = 'Hoje o <span>Chopp R$4,90</span> a noite toda!!! <br/>  <br/>Para participar da promoção cada pessoa deve ter uma valor de 20 reais de consumo de petisco ou carne da casa.'
-        const promocoes = document.querySelector('#promocoes > div.card_')
-        const chopp_price = document.querySelector('.normal_price_b1')
 
-        priceRegular.forEach((price) =>{
-            price.style.textDecoration ='none'
-            price.style.color = 'green'
-        })
-        priceQuinta.forEach((price) =>{
-            price.style.display = 'none'
+
+const displayCards = (cards) =>{
+   
+    const htmlString = cards
+        .map((card) => {
+
+            return `
+            <div class="card_  ${card.class1} ${card.id}" onclick="cardDetails(this)">
+                <div class="card_content">
+                    <h2 class="card_title">${card.title}</h2>
+                    <p class="card_text">${card.content}</p>
+                    <div class="price">
+                        <p class='normal_price'>${card.price1}</p>
+                        <p class="price_discount">${card.price2}</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="${card.img}" alt="" srcset="">
+                </div>
+            </div>
+            `;
+        
            
         })
-        if(promocoes != null){
-            promocoes.innerHTML = '<h2 class="card_title"><span>Chopp a  R$4,90</span></h2>'
-        }
-        normalPricePopup.classList.remove('disabled')
-        descountPricePopup.style.display = 'none'
-    }
-    
-    function sab(){
-        h4_alerta.innerHTML = 'Promoção do Dia'
-        my_1.innerHTML = 'Hoje temos <span>Ancho a R$89,00</span>, ja peça o seu!'
-        const promocoes = document.querySelector('#promocoes > div.card_')
+        .join('');
 
-        priceRegular.forEach((price) =>{
-            price.style.textDecoration ='none'
-            price.style.color = 'green'
-        })
-        priceQuinta.forEach((price) =>{
-            price.style.display = 'none'
-            
-        })
-        if(promocoes != null){
-            promocoes.innerHTML = ''
-            // promocoes.innerHTML = '<h2 class="card_title"><span>Drink em Dobro</span></h2>'
-            promocoes.innerHTML = '<h2 class="card_title"><span>Ancho a R$89,00</span></h2>'
-        }
-        normalPricePopup.classList.remove('disabled')
-        descountPricePopup.style.display = 'none'
-    }
-    
-    function dom(){
-        h4_alerta.innerHTML = 'Promoções'
-        my_1.innerHTML = 'Confira nossas promoções no link abaixo ou clicando em Promoções ao lado do cardapio.'
-        const promocoes = document.querySelector('#promocoes > div.card_')
+        cardContainer.innerHTML = htmlString
 
-        priceRegular.forEach((price) =>{
-            price.style.textDecoration ='none'
-            price.style.color = 'green'
-        })
-        priceQuinta.forEach((price) =>{
-            price.style.display = 'none'
-        })
-       if(promocoes != null){
-            promocoes.innerHTML = '<h2 class="card_title">Hoje Não Temos Promoções</h2>'
-        }
-        normalPricePopup.classList.remove('disabled')
-        descountPricePopup.style.display = 'none'
+}
 
-    }
-    
-    li.forEach(function(li){
-        li.addEventListener('click', () => {
-            dias.innerHTML = li.textContent
-            if(dias.textContent == 'Segunda-Feira'){
-                seg_ter_qua()
-                
-            }else if(dias.textContent == 'Terça-Feira'){
-                seg_ter_qua()
-    
-            }else if(dias.textContent == 'Quarta-Feira'){
-                seg_ter_qua()
-                
-            }else if(dias.textContent == 'Quinta-Feira'){
-                qui()
-                
-            }else if(dias.textContent == 'Sexta-Feira'){
-                sex()
-                
-            }else if(dias.textContent == 'Sabado'){
-                sab()
-                
-            }else if(dias.textContent == 'Domingo'){
-                dom()
-                
-            }
-        })
+loadCard()
+
+
+
+
+function menu(){
+        return `
+        <div id="promocoes">
+            <h2>Promoções</h2>
+            <div class='card_'></div>
+        </div>
+        <div id="entradas">
+            <h2>Entradas</h2>
+        </div>
+        <div id="guarnicoes">
+            <h2>Guarnições</h2>
+        </div>
+        <div id="carnes">
+            <h2>Carnes</h2>
+        </div>
+        <div id="bebidas">
+            <h2>Bebidas</h2>
+        </div>
+        <div id="drinks">
+            <h2>Drinks</h2>
+        </div>
+        `
+
+}
+
+
+function menuOrganizer(){
+
+    const divEntradas = document.getElementById('entradas')
+    const divCarnes = document.getElementById('carnes')
+    const divGuarnicao = document.getElementById('guarnicoes')
+    const divBebida = document.getElementById('bebidas')
+    const divDrinks = document.getElementById('drinks')
+
+    const entradas = document.querySelectorAll('.entradas')
+    entradas.forEach((item) => {
+        divEntradas.appendChild(item)
     })
-    
+    const carnes = document.querySelectorAll('.carnes')
+    carnes.forEach((item) => {
+        divCarnes.appendChild(item)
+    })
+    const guarnicoes = document.querySelectorAll('.guarnicoes')
+    guarnicoes.forEach((item) => {
+        divGuarnicao.appendChild(item)
+    })
+    const bebidas = document.querySelectorAll('.bebidas')
+    bebidas.forEach((item) => {
+        divBebida.appendChild(item)
+    })
+    const drinks = document.querySelectorAll('.drinks')
+    drinks.forEach((item) => {
+        divDrinks.appendChild(item)
+    })
+}
+
+
+
+function desaparecer(){
+    const kieber = document.querySelector('.e7')
+    kieber.style.display = 'none'
+
+    const caipirinhaJambu = document.querySelector('.d2')
+    caipirinhaJambu.style.display = 'none'
+
+    const doseJamu = document.querySelector('.d11')
+    doseJamu.style.display = 'none'
 
 }
 
