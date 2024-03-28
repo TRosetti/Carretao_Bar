@@ -3,8 +3,8 @@
         "id": "e1",
         "title": "Bolinho de Carne",
         "content": "Porção com 350g de bolinho de carne",
-        "price1": "R$38,00",
-        "price2": "R$20,00",
+        "price1": "R$44,00",
+        "price2": "R$24,00",
         "img": "image/bolinho-de-carne.jpeg",
         "class1": "entradas"
     }
@@ -13,8 +13,8 @@
         "id": "e2",
         "title": "Bolinha de Queijo",
         "content": "Porção com 350g de bolinhas de queijo",
-        "price1": "R$38,00",
-        "price2": "R$20,00",
+        "price1": "R$44,00",
+        "price2": "R$24,00",
         "img": "image/bolinha-de-queijo.jpeg",
         "class1": "entradas"
     }
@@ -23,8 +23,8 @@
         "id": "e3",
         "title": "Bolinha de Linguiça",
         "content": "Porção com 350g de bolinhas de linguiça",
-        "price1": "R$38,00",
-        "price2": "R$20,00",
+        "price1": "R$42,00",
+        "price2": "R$22,00",
         "img": "image/bolinha-de-queijo.jpeg",
         "class1": "entradas"
     }
@@ -44,7 +44,7 @@
         "title": "Porção de Fritas",
         "content": "Porção de 350g de batatas fritas crocantes",
         "price1": "R$18,00",
-        "price2": "R$7,00",
+        "price2": "R$9,00",
         "img": "image/batata.jpg",
         "class1": "entradas"
     }
@@ -72,8 +72,8 @@
         "id": "c1",
         "title": "Parrilla de Ancho",
         "content": "450g de Ancho, 150g de Linguiça artesanal, 350g fritas, farofa e tomate",
-        "price1": "R$112,00",
-        "price2": "R$47,00",
+        "price1": "R$122,00",
+        "price2": "R$49,00",
         "img": "image/ancho.jpg",
         "class1": "carnes"
     }
@@ -82,8 +82,8 @@
         "id": "c2",
         "title": "Parrilla de Picanha",
         "content": "450g de Picanha, 150g de Linguiça artesanal, 350g fritas, farofa e tomate.",
-        "price1": "R$135,00",
-        "price2": "R$67,00",
+        "price1": "R$145,00",
+        "price2": "R$69,00",
         "img": "image/ancho.jpg",
         "class1": "carnes"
     }
@@ -123,7 +123,7 @@
         "title": "Heineken",
         "content": "Heineken 600ml",
         "price1": "R$16,00",
-        "price2": "R$10,90",
+        "price2": "R$11,40",
         "img": "image/heineken.jpg",
         "class1": "bebidas"
     }
@@ -133,7 +133,7 @@
         "title": "Heineken Zero",
         "content": "Heineken Zero long neck",
         "price1": "R$10,00",
-        "price2": "R$7,00",
+        "price2": "R$7,90",
         "img": "image/cerveja-zero.jpg",
         "class1": "bebidas"
     },
