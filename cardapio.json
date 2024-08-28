@@ -136,25 +136,6 @@
         "price2": "R$7,90",
         "img": "image/cerveja-zero.jpg",
         "class1": "bebidas"
-    },
-    {
-        "id": "b5",
-        "title": "German Pilsen",
-        "content": "Cerveja Artesanal - Reserva do Gerente",
-        "price1": "R$13,00",
-        "price2": "R$7,00",
-        "img": "image/pilsen.jpeg",
-        "class1": "bebidas"
-    }
-    ,
-    {
-        "id": "b6",
-        "title": "American Ipa",
-        "content": "Cerveja Artesanal - Reserva do Gerente",
-        "price1": "R$13,00",
-        "price2": "R$7,00",
-        "img": "image/ipa.jpeg",
-        "class1": "bebidas"
     }
     ,
     {
