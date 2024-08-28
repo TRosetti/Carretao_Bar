@@ -100,7 +100,7 @@ function changeMenu() {
     
     function sex(){
         h4_alerta.innerHTML = 'Promoção do Dia'
-        my_1.innerHTML = 'Hoje o <span>Chopp R$4,90</span> a noite toda!!! <br/>  <br/>Para participar da promoção cada pessoa deve ter uma valor de 20 reais de consumo de petisco ou carne da casa.'
+        my_1.innerHTML = 'Hoje estamos sem promoções.'
         const promocoes = document.querySelector('#promocoes > div.card_')
         const chopp_price = document.querySelector('.normal_price_b1')
 
@@ -113,7 +113,7 @@ function changeMenu() {
            
         })
         if(promocoes != null){
-            promocoes.innerHTML = '<h2 class="card_title"><span>Chopp a  R$4,90</span></h2>'
+            promocoes.innerHTML = '<h2 class="card_title">Estamos sem promoção</h2>'
         }
         normalPricePopup.classList.remove('disabled')
         descountPricePopup.style.display = 'none'
