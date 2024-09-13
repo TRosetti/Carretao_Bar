@@ -40,8 +40,7 @@ function changeMenu() {
         case 4:
             // Quinta-Feira
             dias.innerHTML = 'Quinta-Feira'
-            // qui()
-            sex()
+            qui()
             break;
         case 5:
             // Sexta-Feira
