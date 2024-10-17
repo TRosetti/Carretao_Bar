@@ -40,7 +40,7 @@ function changeMenu() {
         case 4:
             // Quinta-Feira
             dias.innerHTML = 'Quinta-Feira'
-            qui()  // está fora da promoção
+            sex()  // está fora da promoção
             break;
         case 5:
             // Sexta-Feira
