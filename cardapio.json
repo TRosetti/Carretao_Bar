@@ -14,7 +14,7 @@
         "title": "Bolinha de Queijo",
         "content": "Porção com 350g de bolinhas de queijo",
         "price1": "R$44,00",
-        "price2": "R$24,00",
+        "price2": "R$24,20",
         "img": "image/bolinha-de-queijo.jpeg",
         "class1": "entradas"
     }
@@ -24,7 +24,7 @@
         "title": "Bolinha de Linguiça",
         "content": "Porção com 350g de bolinhas de linguiça",
         "price1": "R$42,00",
-        "price2": "R$22,00",
+        "price2": "R$24,20",
         "img": "image/bolinha-de-queijo.jpeg",
         "class1": "entradas"
     }
@@ -34,7 +34,7 @@
         "title": "Pão de Alho (2 unidades)",
         "content": "Dois pães assados com toque de alho e ervas",
         "price1": "R$15,00",
-        "price2": "R$9,00",
+        "price2": "R$9,90",
         "img": "image/pao-de-alho.jpeg",
         "class1": "entradas"
     }
@@ -44,7 +44,7 @@
         "title": "Porção de Fritas",
         "content": "Porção de 350g de batatas fritas crocantes",
         "price1": "R$18,00",
-        "price2": "R$9,00",
+        "price2": "R$9,90",
         "img": "image/batata.jpg",
         "class1": "entradas"
     }
@@ -54,7 +54,7 @@
         "title": "Linguiça com Fritas",
         "content": "350g de linguicinha artesanal grelhada acompanhado de batatas fritas",
         "price1": "R$49,00",
-        "price2": "R$24,00",
+        "price2": "R$26,40",
         "img": "image/linguica-com-fritas.jpg",
         "class1": "entradas"
     }
@@ -64,7 +64,7 @@
         "title": "Parrilla de Ancho",
         "content": "450g de Ancho, 150g de Linguiça artesanal, 350g fritas, farofa e tomate",
         "price1": "R$122,00",
-        "price2": "R$49,00",
+        "price2": "R$53,90",
         "img": "image/ancho.jpg",
         "class1": "carnes"
     }
@@ -74,7 +74,7 @@
         "title": "Parrilla de Picanha",
         "content": "450g de Picanha, 150g de Linguiça artesanal, 350g fritas, farofa e tomate.",
         "price1": "R$145,00",
-        "price2": "R$69,00",
+        "price2": "R$75,90",
         "img": "image/ancho.jpg",
         "class1": "carnes"
     }
@@ -94,8 +94,8 @@
         "title": "Chopp",
         "content": "Chopp Pilsen - Reserva do Gerente",
         "price1": "R$8,00",
-        "price2": "R$5,00",
-        "price_sexta": "R$4,90",
+        "price2": "R$4,99",
+        "price_sexta": "R$4,99",
         "img": "image/chop.jpeg",
         "class1": "bebidas"
     },
@@ -104,7 +104,7 @@
         "title": "Amstel",
         "content": "Amstel 600ml",
         "price1": "R$12,00",
-        "price2": "R$8,90",
+        "price2": "R$9,80",
         "img": "image/amstel.jpg",
         "class1": "bebidas"
         
@@ -114,7 +114,7 @@
         "title": "Heineken",
         "content": "Heineken 600ml",
         "price1": "R$16,00",
-        "price2": "R$11,40",
+        "price2": "R$12,50",
         "img": "image/heineken.jpg",
         "class1": "bebidas"
     }
@@ -124,7 +124,7 @@
         "title": "Heineken Zero",
         "content": "Heineken Zero long neck",
         "price1": "R$10,00",
-        "price2": "R$7,90",
+        "price2": "R$8,70",
         "img": "image/cerveja-zero.jpg",
         "class1": "bebidas"
     }
@@ -134,7 +134,7 @@
         "title": "Água Mineral",
         "content": "Garrafinha de água mineral",
         "price1": "R$4,00",
-        "price2": "R$2,00",
+        "price2": "R$2,20",
         "img": "image/agua.jpeg",
         "class1": "bebidas"
     }
@@ -144,7 +144,7 @@
         "title": "Água com Gás",
         "content": "Garrafinha de água com gás",
         "price1": "R$5,00",
-        "price2": "R$3,00",
+        "price2": "R$3,70",
         "img": "image/agua-com-gas.jpeg",
         "class1": "bebidas"
     }
@@ -154,7 +154,7 @@
         "title": "Refrigerantes",
         "content": "Coca-Cola (normal e zero), Guaraná (normal e zero)",
         "price1": "R$6,00",
-        "price2": "R$3,90",
+        "price2": "R$4,30",
         "img": "image/refrigerates.jpg",
         "class1": "bebidas"
     }
@@ -164,7 +164,7 @@
         "title": "Suco de Polpa",
         "content": "Manga, Acerola, Caju, Graviola, Maracujá",
         "price1": "R$7,00",
-        "price2": "R$3,90",
+        "price2": "R$4,30",
         "img": "image/suco.jpeg",
         "class1": "bebidas"
     }
@@ -174,7 +174,7 @@
         "title": "Caipirinha",
         "content": "Cachaça, limão e xarope de açúcar em equilíbrio brasileiro",
         "price1": "R$18,00",
-        "price2": "R$8,90",
+        "price2": "R$9,40",
         "img": "image/caipirinha.jpeg",
         "class1": "drinks"
     }
@@ -184,7 +184,7 @@
         "title": "Caipivodka",
         "content": "Vodka, limão e xarope de açúcar em harmonia refrescante",
         "price1": "R$20,00",
-        "price2": "R$9,90",
+        "price2": "R$10,80",
         "img": "image/caipirinha.jpeg",
         "class1": "drinks"
     }
@@ -195,7 +195,7 @@
         "title": "Gin Tônica",
         "content": "Gin, água tônica e toque cítrico, elegância simples",
         "price1": "R$21,00",
-        "price2": "R$9,90",
+        "price2": "R$10,80",
         "img": "image/gim-tonica.jpeg",
         "class1": "drinks"
     }
@@ -205,7 +205,7 @@
         "title": "Gin Tônica Saborizado",
         "content": "Gin, água tônica e Monin de diferentes sabores..",
         "price1": "R$26,00",
-        "price2": "R$10,90",
+        "price2": "R$11,80",
         "img": "image/gim-tonica.jpeg",
         "class1": "drinks"
     }
@@ -215,7 +215,7 @@
         "title": "Mojito",
         "content": "Rum, hortelã, limão e frescor vibrante",
         "price1": "R$25,00",
-        "price2": "R$10,90",
+        "price2": "R$11,80",
         "img": "image/carretao.png",
         "class1": "drinks"
     }
@@ -245,7 +245,7 @@
         "title": "Mango Loco",
         "content": "Vodka e energético sabor Mango Loco",
         "price1": "R$24,00",
-        "price2": "R$13,90",
+        "price2": "R$14,90",
         "img": "image/mango-loko.jpeg",
         "class1": "drinks"
     }
@@ -255,7 +255,7 @@
         "title": "Pacific Punch",
         "content": "Vodka e energético sabor Pacific Punch",
         "price1": "R$24,00",
-        "price2": "R$13,90",
+        "price2": "R$14,90",
         "img": "image/pacific-punch.jpeg",
         "class1": "drinks" 
     }
@@ -265,7 +265,7 @@
         "title": "Campari",
         "content": "Dose de Campari",
         "price1": "R$11,00",
-        "price2": "R$5,00",
+        "price2": "R$5,50",
         "img": "image/campari.jpg",
         "class1": "drinks"
     }
@@ -275,7 +275,7 @@
         "title": "Cachaça",
         "content": "Dose de Cachaça",
         "price1": "R$10,00",
-        "price2": "R$5,00",
+        "price2": "R$5,50",
         "img": "image/seleta.jpeg",
         "class1": "drinks"
     }
@@ -285,7 +285,7 @@
         "title": "Vodka",
         "content": "Dose de Vodka",
         "price1": "R$10,00",
-        "price2": "R$3,00",
+        "price2": "R$4,50",
         "img": "image/vodka.jpeg",
         "class1": "drinks"
     }
@@ -295,7 +295,7 @@
         "title": "Gin",
         "content": "Dose de Gin",
         "price1": "R$10,00",
-        "price2": "R$4,00",
+        "price2": "R$4,50",
         "img": "image/gim.jpeg",
         "class1": "drinks"
     },
@@ -304,7 +304,7 @@
         "title": "Rum",
         "content": "Dose de Rum",
         "price1": "R$10,00",
-        "price2": "R$4,00",
+        "price2": "R$4,50",
         "img": "image/rum.jpeg",
         "class1": "drinks"
     }
