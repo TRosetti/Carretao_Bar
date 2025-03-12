@@ -1,14 +1,14 @@
 [
     {
-        "id": "e1",
-        "title": "Bolinho de Carne",
-        "content": "Porção com 350g de bolinho de carne",
+        "id": "e7",
+        "title": "Kieber",
+        "content": "Deliciosas bolinhas de frango fritas recheadas com presunto e queijo",
         "price1": "R$44,00",
         "price2": "R$24,00",
-        "img": "image/bolinho-de-carne.jpeg",
+        "img": "image/carretao.png",
         "class1": "entradas"
     }
-    ,
+   ,
     {
         "id": "e2",
         "title": "Bolinha de Queijo",
