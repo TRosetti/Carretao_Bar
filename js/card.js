@@ -131,8 +131,8 @@ function menuOrganizer(){
 
 
 function desaparecer(){
-    const kieber = document.querySelector('.e7')
-    kieber.style.display = 'none'
+    // const kieber = document.querySelector('.e7')
+    // kieber.style.display = 'none'
 
     const caipirinhaJambu = document.querySelector('.d2')
     caipirinhaJambu.style.display = 'none'
