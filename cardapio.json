@@ -109,13 +109,15 @@
         "class1": "bebidas"
         
     },
+    
+
     {
         "id":"b3",
-        "title": "Heineken",
-        "content": "Heineken 600ml",
-        "price1": "R$16,00",
-        "price2": "R$12,50",
-        "img": "image/heineken.jpg",
+        "title": "Eisenbahn", 
+        "content": "Eisenbahn Unifiltred 600ml",
+        "price1": "R$15,00",
+        "price2": "R$8,90",
+        "img": "image/eisenbahn.png",
         "class1": "bebidas"
     }
     ,
