@@ -88,10 +88,18 @@
         "img": "image/arroz.jpeg",
         "class1": "guarnicoes" 
     }
+     ,
+    {
+        "id": "b1",
+        "title": "Chopp",
+        "content": "Chopp Pilsen - Reserva do Gerente",
+        "price1": "R$8,00",
+        "price2": "R$4,99",
+        "price_sexta": "R$4,99",
+        "img": "image/chop.jpeg",
+        "class1": "bebidas"
+    }
     ,
-
-    
-
     {
         "id":"b3",
         "title": "Eisenbahn", 
