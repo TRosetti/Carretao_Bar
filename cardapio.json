@@ -11,11 +11,11 @@
    ,
     {
         "id": "e2",
-        "title": "Bolinha de Queijo",
-        "content": "Porção com 350g de bolinhas de queijo",
+        "title": "Kieber",
+        "content": "Deliciosas bolinhas de frango fritas recheadas com presunto e queijo",
         "price1": "R$44,00",
         "price2": "R$24,20",
-        "img": "image/bolinha-de-queijo.jpeg",
+        "img": "image/carretao.jpeg",
         "class1": "entradas"
     }
     ,
@@ -36,7 +36,7 @@
         "price1": "R$18,00",
         "price2": "R$9,90",
         "img": "image/pao-de-alho.jpeg",
-        "class1": "entradas"
+        "class1": "guarnicoes"
     }
     ,
     {
@@ -46,7 +46,7 @@
         "price1": "R$22,00",
         "price2": "R$9,90",
         "img": "image/batata.jpg",
-        "class1": "entradas"
+        "class1": "guarnicoes"
     }
     ,
     {
