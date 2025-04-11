@@ -88,15 +88,24 @@
         "img": "image/arroz.jpeg",
         "class1": "guarnicoes" 
     }
-     ,
+      ,
     {
         "id": "b1",
-        "title": "Chopp",
-        "content": "Chopp Pilsen - Reserva do Gerente",
-        "price1": "R$8,00",
-        "price2": "R$4,99",
-        "price_sexta": "R$4,99",
-        "img": "image/chop.jpeg",
+        "title": "Heineken",
+        "content": "Heineken 600",
+        "price1": "R$17,00",
+        "price2": "R$12,80",
+        "img": "image/heineken.jpg",
+        "class1": "bebidas"
+    }
+    ,
+    {
+        "id": "b2",
+        "title": "Amstel",
+        "content": "Amstel 600",
+        "price1": "R$12,00",
+        "price2": "R$9,80",
+        "img": "image/amstel.jpg",
         "class1": "bebidas"
     }
     ,
