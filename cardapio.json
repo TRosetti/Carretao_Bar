@@ -1,14 +1,5 @@
 [
-    {
-        "id": "e1",
-        "title": "Bolinho de Carne",
-        "content": "Porção com 350g de bolinhos de carne",
-        "price1": "R$44,00",
-        "price2": "R$24,00",
-        "img": "image/bolinho-de-carne.jpeg",
-        "class1": "entradas"
-    }
-   ,
+   
     {
         "id": "e2",
         "title": "Kieber",
@@ -53,7 +44,7 @@
         "id": "e6",
         "title": "Linguiça com Fritas",
         "content": "350g de linguicinha artesanal grelhada acompanhado de batatas fritas",
-        "price1": "R$49,00",
+        "price1": "R$35,00",
         "price2": "R$26,40",
         "img": "image/linguica-com-fritas.jpg",
         "class1": "entradas"
@@ -93,7 +84,7 @@
         "id": "b1",
         "title": "Heineken",
         "content": "Heineken 600",
-        "price1": "R$17,00",
+        "price1": "R$12,50",
         "price2": "R$12,80",
         "img": "image/heineken.jpg",
         "class1": "bebidas"
@@ -101,11 +92,11 @@
     ,
     {
         "id": "b2",
-        "title": "Amstel",
-        "content": "Amstel 600",
-        "price1": "R$12,00",
+        "title": "Stella",
+        "content": "Stella 600",
+        "price1": "R$12,50",
         "price2": "R$9,80",
-        "img": "image/amstel.jpg",
+        "img": "image/stella.png",
         "class1": "bebidas"
     }
     ,
