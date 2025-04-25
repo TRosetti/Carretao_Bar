@@ -100,16 +100,7 @@
         "class1": "bebidas"
     }
     ,
-    {
-        "id":"b3",
-        "title": "Eisenbahn", 
-        "content": "Eisenbahn Unifiltred 600ml",
-        "price1": "R$15,00",
-        "price2": "R$8,90",
-        "img": "image/eisenbahn.png",
-        "class1": "bebidas"
-    }
-    ,
+    
     {
         "id": "b4",
         "title": "Heineken Zero",
